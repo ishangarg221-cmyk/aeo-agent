@@ -16,7 +16,20 @@
       "name": "example-future-skill",
       "enabled": false,
       "note": "Template. Register a new GitHub skill's CLI here to auto-run it in the pipeline. Use placeholders {url} {domain} {brand} {topic}.",
-      "cmd": ["some-cli", "scan", "--url", "{url}", "--format", "json"]
+      "cmd": [
+        "some-cli",
+        "scan",
+        "--url",
+        "{url}",
+        "--format",
+        "json"
+      ]
     }
-  ]
+  ],
+  "max_daily": 20,
+  "priority_pages": [
+    "https://artificialjewellers.com/",
+    "https://artificialjewellers.com/collections/all"
+  ],
+  "_pages_note": "priority_pages = audited every DAY. Leave empty to auto-pick homepage + first 20 sitemap URLs. All pages are audited WEEKLY (Sundays) regardless."
 }

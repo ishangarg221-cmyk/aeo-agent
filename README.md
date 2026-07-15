@@ -126,3 +126,16 @@ one so the agent advances to the next. MYNA is the only nameable brand.
 ### Scheduled (GitHub Actions)
 `.github/workflows/daily-aeo.yml` runs it daily at 09:00 IST, uploads the digest, emails it
 (if SMTP secrets set), and opens a review PR for any staged fixes.
+
+---
+
+## Site-wide audit (every page)
+`crawl_site.py` reads your `sitemap.xml`, audits every product/collection/page, and
+writes `crawl-results.json`. The dashboard then shows a site overview + per-page
+drill-down. Cadence is automatic in the workflow: **top priority pages daily, the
+full sitemap on Sundays.** Set your daily pages in `myna.config.json → priority_pages`
+(leave empty to auto-pick homepage + first 20). Run manually:
+```
+python crawl_site.py --mode daily     # or: --mode weekly
+python build_dashboard.py
+```
