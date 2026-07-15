@@ -1,0 +1,642 @@
+{
+  "meta": {
+    "brand": "MYNA",
+    "domain": "artificialjewellers.com",
+    "url": "https://artificialjewellers.com",
+    "utc": "2026-07-15T09:03:55+00:00"
+  },
+  "myna_auditor": {
+    "url": "https://artificialjewellers.com",
+    "score": 61,
+    "grade": "C \u2014 visible but leaking citations",
+    "sections": {
+      "Crawlability (AI bots)": {
+        "score": 20,
+        "max": 20,
+        "findings": [
+          "AI crawlers are allowed by robots.txt."
+        ],
+        "fixes": []
+      },
+      "llms.txt": {
+        "score": 10,
+        "max": 10,
+        "findings": [
+          "/llms.txt present and structured (5 links)."
+        ],
+        "fixes": []
+      },
+      "Structured data / schema": {
+        "score": 1,
+        "max": 20,
+        "findings": [
+          "Schema present: WebSite"
+        ],
+        "fixes": [
+          [
+            "HIGH",
+            "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+          ]
+        ]
+      },
+      "Answer structure": {
+        "score": 11,
+        "max": 20,
+        "findings": [
+          "Good heading structure (10 H2s)."
+        ],
+        "fixes": [
+          [
+            "HIGH",
+            "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+          ]
+        ]
+      },
+      "Content extractability": {
+        "score": 8,
+        "max": 15,
+        "findings": [
+          "1143 words of server-rendered text."
+        ],
+        "fixes": [
+          [
+            "HIGH",
+            "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+          ]
+        ]
+      },
+      "Meta & entity signals": {
+        "score": 11,
+        "max": 15,
+        "findings": [],
+        "fixes": [
+          [
+            "HIGH",
+            "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+          ]
+        ]
+      }
+    },
+    "ranked_fixes": [
+      [
+        "HIGH",
+        "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+      ],
+      [
+        "HIGH",
+        "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+      ],
+      [
+        "HIGH",
+        "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+      ],
+      [
+        "HIGH",
+        "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+      ]
+    ],
+    "live": null
+  },
+  "geo_audit": {
+    "url": "https://artificialjewellers.com",
+    "timestamp": "2026-07-15T09:04:05.082839+00:00",
+    "score": 62,
+    "band": "foundation",
+    "checks": {
+      "robots_txt": {
+        "score": 15,
+        "max": 18,
+        "passed": true,
+        "details": {
+          "found": true,
+          "bots_allowed": [
+            "GPTBot",
+            "OAI-SearchBot",
+            "ChatGPT-User",
+            "anthropic-ai",
+            "ClaudeBot",
+            "Claude-SearchBot",
+            "claude-web",
+            "PerplexityBot",
+            "Perplexity-User",
+            "Google-Extended",
+            "Google-CloudVertexBot",
+            "Bingbot",
+            "Applebot-Extended",
+            "cohere-ai",
+            "DuckAssistBot",
+            "Bytespider",
+            "meta-externalagent",
+            "Meta-ExternalFetcher",
+            "facebookexternalhit",
+            "Amazonbot",
+            "AI2Bot",
+            "AI2Bot-Dolma",
+            "xAI-Bot",
+            "Applebot",
+            "PetalBot",
+            "YouBot",
+            "CCBot"
+          ],
+          "bots_missing": [],
+          "bots_blocked": [],
+          "bots_partial": [],
+          "citation_bots_ok": true,
+          "crawl_delay": null,
+          "citation_bots_explicit": false
+        }
+      },
+      "llms_txt": {
+        "score": 13,
+        "max": 18,
+        "passed": true,
+        "details": {
+          "found": true,
+          "has_h1": true,
+          "has_description": false,
+          "has_sections": true,
+          "has_links": true,
+          "word_count": 544,
+          "has_full": true,
+          "sections_count": 5,
+          "links_count": 5,
+          "has_blockquote": false,
+          "has_optional_section": false,
+          "companion_files_hint": true,
+          "validation_warnings": [
+            "llms.txt should have a > blockquote description after H1"
+          ]
+        }
+      },
+      "schema_jsonld": {
+        "score": 7,
+        "max": 16,
+        "passed": true,
+        "details": {
+          "has_website": true,
+          "has_webapp": false,
+          "has_faq": false,
+          "found_types": [
+            "OnlineStore",
+            "WebSite"
+          ]
+        }
+      },
+      "meta_tags": {
+        "score": 14,
+        "max": 14,
+        "passed": true,
+        "details": {
+          "has_title": true,
+          "has_description": true,
+          "has_canonical": true,
+          "has_og_title": true,
+          "has_og_description": true,
+          "has_og_image": true,
+          "title_text": "MYNA \u2014 Artificial & Bridal Jewellery Online in India",
+          "description_text": "Made for the everyday and the once-in-a-lifetime \u2014 kundan, polki & pearl sets crafted to shine. MYNA artificial jewellery, anti-tarnish, delivered across India.",
+          "description_length": 160,
+          "title_length": 52,
+          "canonical_url": "https://artificialjewellers.com/",
+          "x_robots_noindex": false,
+          "x_robots_tag": "",
+          "has_noai": false,
+          "noai_value": ""
+        }
+      },
+      "content": {
+        "score": 12,
+        "max": 12,
+        "passed": true,
+        "details": {
+          "has_h1": true,
+          "heading_count": 23,
+          "has_numbers": true,
+          "has_links": true,
+          "word_count": 1143,
+          "h1_text": "Quiet luxury, made for the everyday.",
+          "numbers_count": 32,
+          "external_links_count": 13,
+          "has_heading_hierarchy": true,
+          "has_lists_or_tables": true,
+          "has_front_loading": true
+        }
+      },
+      "signals": {
+        "score": 3,
+        "max": 6,
+        "passed": true,
+        "details": {
+          "has_lang": true,
+          "lang_value": "en",
+          "has_rss": false,
+          "rss_url": "",
+          "has_freshness": false,
+          "freshness_date": ""
+        }
+      },
+      "ai_discovery": {
+        "score": 0,
+        "max": 6,
+        "passed": false,
+        "details": {
+          "has_well_known_ai": false,
+          "has_summary": false,
+          "has_faq": false,
+          "has_service": false,
+          "summary_valid": false,
+          "faq_count": 0,
+          "endpoints_found": 0
+        }
+      },
+      "brand_entity": {
+        "score": 3,
+        "max": 10,
+        "passed": true,
+        "details": {
+          "brand_name_consistent": true,
+          "names_found": [
+            "Quietluxury, made for the everyday.",
+            "MYNA",
+            "MYNA"
+          ],
+          "schema_desc_matches_meta": false,
+          "kg_pillar_count": 0,
+          "kg_pillar_urls": [],
+          "has_wikipedia": false,
+          "has_wikidata": false,
+          "has_linkedin": false,
+          "has_crunchbase": false,
+          "has_about_link": true,
+          "has_contact_info": false,
+          "has_geo_schema": false,
+          "has_hreflang": false,
+          "hreflang_count": 0,
+          "faq_depth": 0,
+          "has_recent_articles": false
+        }
+      }
+    },
+    "score_breakdown": {
+      "robots": 15,
+      "llms": 13,
+      "schema": 7,
+      "meta": 14,
+      "content": 12,
+      "signals": 3,
+      "ai_discovery": 0,
+      "brand_entity": 3,
+      "negative_penalty": -5
+    },
+    "recommendations": [
+      "Hidden text detected (display:none/visibility:hidden with content) \u2014 AI crawlers can read it and may penalize this cloaking pattern",
+      "Add Organization JSON-LD schema with name, url, and logo",
+      "Add FAQPage schema with site FAQs",
+      "Add sameAs links in Organization schema to Wikipedia, Wikidata, LinkedIn, or Crunchbase for Knowledge Graph disambiguation",
+      "Add address, telephone or contactPoint to Organization schema for entity validation",
+      "llms.txt should have a > blockquote description after H1",
+      "Keyword stuffing detected: 'your' at 3.1% density \u2014 diversify vocabulary",
+      "High boilerplate ratio (62%) \u2014 use <main> tag to help AI extract core content",
+      "Create /.well-known/ai.txt to define AI crawler permissions",
+      "Create /ai/summary.json with site name and description for AI engines",
+      "Create /ai/faq.json with structured FAQ for AI search visibility",
+      "Create /ai/service.json to describe service capabilities for AI",
+      "Add RSS/Atom feed and link it in <head> with <link rel=\"alternate\" type=\"application/rss+xml\"> for AI discovery",
+      "36 of 49 images lack descriptive alt text \u2014 multimodal AI engines (Gemini, GPT-4o) read images through their alt text"
+    ],
+    "webmcp": {
+      "readiness_level": "advanced",
+      "agent_ready": true,
+      "has_register_tool": true,
+      "has_tool_attributes": false,
+      "tool_count": 0,
+      "has_potential_action": true,
+      "potential_actions": [
+        "SearchAction"
+      ],
+      "has_labeled_forms": true,
+      "labeled_forms_count": 3,
+      "has_openapi": false
+    },
+    "negative_signals": {
+      "severity": "high",
+      "signals_found": 4,
+      "cta_density_high": false,
+      "cta_count": 1,
+      "has_popup_signals": true,
+      "is_thin_content": false,
+      "broken_links_count": 2,
+      "has_keyword_stuffing": true,
+      "has_author_signal": false,
+      "boilerplate_ratio": 0.62,
+      "has_mixed_signals": false
+    },
+    "cdn_check": {
+      "checked": true,
+      "browser_status": 200,
+      "browser_content_length": 280249,
+      "bot_results": [
+        {
+          "bot": "GPTBot",
+          "status": 200,
+          "content_length": 280249,
+          "blocked": false,
+          "challenge_detected": false
+        },
+        {
+          "bot": "ClaudeBot",
+          "status": 200,
+          "content_length": 280249,
+          "blocked": false,
+          "challenge_detected": false
+        },
+        {
+          "bot": "PerplexityBot",
+          "status": 200,
+          "content_length": 280249,
+          "blocked": false,
+          "challenge_detected": false
+        }
+      ],
+      "any_blocked": false,
+      "cdn_detected": "cloudflare",
+      "cdn_headers": {
+        "cf-ray": "a1b798f95f5e3f47-BOM",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare"
+      },
+      "error": ""
+    },
+    "js_rendering": {
+      "checked": true,
+      "raw_word_count": 1134,
+      "raw_heading_count": 23,
+      "has_empty_root": false,
+      "has_noscript_content": false,
+      "framework_detected": "",
+      "js_dependent": false,
+      "details": "1134 words and 23 headings found in raw HTML. Content is accessible without JavaScript."
+    },
+    "multimodal": {
+      "checked": true,
+      "total_images": 49,
+      "images_with_alt": 13,
+      "alt_coverage": 0.27,
+      "caption_count": 0,
+      "has_video": false,
+      "video_count": 0,
+      "has_video_schema": false,
+      "has_video_captions": false,
+      "has_audio": false,
+      "has_audio_schema": false,
+      "has_transcript": false,
+      "readiness_level": "missing"
+    },
+    "trust_stack": {
+      "checked": true,
+      "technical": {
+        "name": "technical",
+        "label": "Technical Trust",
+        "score": 5,
+        "max_score": 5,
+        "signals_found": [
+          "HTTPS",
+          "HSTS",
+          "CSP",
+          "X-Frame-Options"
+        ],
+        "signals_missing": [],
+        "details": {}
+      },
+      "identity": {
+        "name": "identity",
+        "label": "Identity Trust",
+        "score": 2,
+        "max_score": 5,
+        "signals_found": [
+          "Brand name consistent",
+          "About page"
+        ],
+        "signals_missing": [
+          "No contact information in schema",
+          "No Organization JSON-LD schema",
+          "No author attribution found"
+        ],
+        "details": {}
+      },
+      "social": {
+        "name": "social",
+        "label": "Social Trust",
+        "score": 2,
+        "max_score": 5,
+        "signals_found": [
+          "sameAs links (1)",
+          "Social profiles (instagram.com, facebook.com, youtube.com)"
+        ],
+        "signals_missing": [
+          "No Knowledge Graph pillar links",
+          "No reviews or testimonials found"
+        ],
+        "details": {}
+      },
+      "academic": {
+        "name": "academic",
+        "label": "Academic Trust",
+        "score": 2,
+        "max_score": 5,
+        "signals_found": [
+          "Numbers cited (32)",
+          "External sources (2 non-social links)"
+        ],
+        "signals_missing": [
+          "No links to authoritative sources (DOI, PubMed, Scholar)",
+          "No References/Sources section",
+          "No original research data patterns"
+        ],
+        "details": {
+          "authoritative_domains": [],
+          "statistics_count": 1,
+          "numbers_count": 32
+        }
+      },
+      "consistency": {
+        "name": "consistency",
+        "label": "Consistency Trust",
+        "score": 3,
+        "max_score": 5,
+        "signals_found": [
+          "Brand name consistent across title/H1/schema",
+          "No mixed signals"
+        ],
+        "signals_missing": [
+          "Schema description differs from meta description",
+          "No dateModified in schema"
+        ],
+        "details": {}
+      },
+      "composite_score": 14,
+      "grade": "C",
+      "trust_level": "medium"
+    },
+    "prompt_injection": {
+      "checked": true,
+      "hidden_text_found": true,
+      "hidden_text_count": 5,
+      "hidden_text_samples": [
+        "That code isn't valid. Please check and try again.",
+        "appliedRemove",
+        "Coupon\u2212\u20b90"
+      ],
+      "invisible_unicode_found": false,
+      "invisible_unicode_count": 0,
+      "llm_instruction_found": false,
+      "llm_instruction_count": 0,
+      "llm_instruction_samples": [],
+      "html_comment_injection_found": false,
+      "html_comment_injection_count": 0,
+      "html_comment_samples": [],
+      "monochrome_text_found": false,
+      "monochrome_text_count": 0,
+      "microfont_found": false,
+      "microfont_count": 0,
+      "data_attr_injection_found": false,
+      "data_attr_injection_count": 0,
+      "data_attr_samples": [],
+      "aria_hidden_injection_found": false,
+      "aria_hidden_injection_count": 0,
+      "aria_hidden_samples": [],
+      "patterns_found": 1,
+      "severity": "suspicious",
+      "risk_level": "medium"
+    },
+    "rag_chunk": {
+      "checked": true,
+      "total_sections": 21,
+      "sections_in_range": 0,
+      "avg_section_words": 12.1,
+      "has_definition_opening": false,
+      "heading_as_boundary_ratio": 1.1,
+      "anchor_sentences": 26,
+      "chunk_readiness_score": 45
+    },
+    "embedding_proximity": {
+      "checked": true,
+      "skipped_reason": "sentence-transformers not installed (pip install geo-optimizer-skill[embedding])",
+      "model_name": "",
+      "query_scores": [],
+      "avg_similarity": 0.0,
+      "top_similarity": 0.0,
+      "retrievable_chunks": 0,
+      "total_chunks": 0
+    },
+    "content_decay": {
+      "checked": true,
+      "signals": [
+        {
+          "decay_type": "temporal",
+          "text": "All Arrivals THE WEDDING EDIT 2026 Every bride deserves a story.",
+          "estimated_stale_days": 365,
+          "suggestion": "Use relative time or add dateModified schema for freshness signals"
+        },
+        {
+          "decay_type": "temporal",
+          "text": "Notes from Myna Affiliates \u00a9 2026 MYNA \u00b7 CRAFTED IN INDORE UPI",
+          "estimated_stale_days": 365,
+          "suggestion": "Use relative time or add dateModified schema for freshness signals"
+        }
+      ],
+      "earliest_decay_days": 365,
+      "decay_risk": "medium",
+      "evergreen_score": 84
+    },
+    "platform_citation": {
+      "checked": true,
+      "platforms": [
+        {
+          "platform": "chatgpt",
+          "score": 55,
+          "strengths": [
+            "GPTBot allowed in robots.txt",
+            "llms.txt present",
+            "Well-structured content",
+            "Citability score 82/100"
+          ],
+          "recommendations": [
+            "Add FAQPage schema for Q&A-style answers",
+            "Add Organization schema for entity clarity"
+          ]
+        },
+        {
+          "platform": "perplexity",
+          "score": 70,
+          "strengths": [
+            "PerplexityBot allowed",
+            "llms.txt with links",
+            "High citability (82/100)",
+            "Substantial content depth",
+            "External links for source diversity"
+          ],
+          "recommendations": [
+            "Add dateModified schema or freshness indicators"
+          ]
+        },
+        {
+          "platform": "google_ai",
+          "score": 83,
+          "strengths": [
+            "Google-Extended allowed",
+            "Complete meta tags",
+            "Open Graph tags present",
+            "Citability score 82/100",
+            "Quality content structure",
+            "Content available without JS (SSR-safe)",
+            "sameAs links for authority signals"
+          ],
+          "recommendations": [
+            "Add more schema types for richer structured data",
+            "Add dateModified / lastmod freshness signals",
+            "Add descriptive alt text to images"
+          ]
+        }
+      ]
+    },
+    "context_window": {
+      "checked": true,
+      "total_words": 1134,
+      "total_tokens_estimate": 1474,
+      "front_loaded_ratio": 0.2,
+      "key_info_tokens": 292,
+      "filler_ratio": 0.02,
+      "optimal_for": [
+        "perplexity",
+        "chatgpt",
+        "claude"
+      ],
+      "truncation_risk": "low",
+      "context_efficiency_score": 62
+    },
+    "instruction_readiness": {
+      "checked": true,
+      "labeled_buttons": 72,
+      "unlabeled_buttons": 0,
+      "action_clarity_score": 100,
+      "total_inputs": 17,
+      "labeled_inputs": 17,
+      "typed_inputs": 17,
+      "form_readability_score": 100,
+      "nav_links": 127,
+      "stateful_urls": true,
+      "has_aria_live": false,
+      "has_error_roles": false,
+      "readiness_score": 75,
+      "readiness_level": "ready"
+    },
+    "http_status": 200,
+    "page_size": 280249,
+    "audit_duration_ms": 5693
+  },
+  "geo_citations": {
+    "_skipped": "no_api_key"
+  },
+  "extra_tools": {}
+}

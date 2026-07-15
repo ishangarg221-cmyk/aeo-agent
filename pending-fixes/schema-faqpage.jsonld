@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Cos'è artificialjewellers.com?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Made for the everyday and the once-in-a-lifetime — kundan, polki & pearl sets crafted to shine. MYNA artificial jewellery, anti-tarnish, delivered across India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come contattare artificialjewellers.com?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visita la pagina contatti su https://artificialjewellers.com/contatti"
+      }
+    }
+  ]
+}

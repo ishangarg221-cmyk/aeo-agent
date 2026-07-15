@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MYNA — Artificial & Bridal Jewellery Online in India",
+  "url": "https://artificialjewellers.com",
+  "description": "Made for the everyday and the once-in-a-lifetime — kundan, polki & pearl sets crafted to shine. MYNA artificial jewellery, anti-tarnish, delivered across India.",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://artificialjewellers.com/logo.png"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/YOUR_COMPANY",
+    "https://github.com/YOUR_ORG",
+    "https://twitter.com/YOUR_HANDLE"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "_governance": {
+    "rule": "A skill only enters the stack if it (a) is actively maintained (commit within ~90 days, real tests or releases) AND (b) closes a loop no existing skill closes. Duplicate scorers are rejected — they add noise, not signal.",
+    "doubt_gate": [
+      "Taleb — is it maintained, or a dead/fragile repo? (check last commit + release cadence)",
+      "Munger — what is the author's incentive? Is the free core crippled bait for a paid upsell?",
+      "Fader — does it measure a real outcome, or just a vanity proxy?",
+      "Christensen — what job does it do that my current 3 skills don't already do?",
+      "Ogilvy — is it grounded in evidence, or marketing claims?"
+    ],
+    "loops_already_covered": [
+      "WRITE — MYNA-correct content + answer blocks (aeo-seo-agent + aeo_agent.py)",
+      "SCORE — rigorous readiness scoring (geo-optimizer-skill)",
+      "PROVE — real citation verification (geo citations, Perplexity Sonar)"
+    ],
+    "open_loops_worth_filling": [
+      "AUTHORITY — off-site mention / Reddit / Wikipedia / Wikidata tracking",
+      "COMPETITOR — share-of-voice vs named rivals across engines over time",
+      "CONTENT-DECAY — freshness / evergreen monitoring at scale"
+    ]
+  },
+  "skills": [
+    {
+      "name": "aeo-seo-agent",
+      "role": "WRITE",
+      "source": "local (this repo)",
+      "invoke": "python aeo_agent.py <url>  |  Claude Code subagent",
+      "verified": "2026-07-15",
+      "notes": "MYNA design/content rules + Doubt-Engineer answer blocks. Only nameable brand: MYNA."
+    },
+    {
+      "name": "geo-optimizer-skill",
+      "role": "SCORE + PROVE",
+      "source": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+      "install": "pip install geo-optimizer-skill",
+      "invoke": "geo audit --url <url> --format json  |  geo citations --brand ... --domain ...",
+      "license": "MIT (open core; hosted GeoReady is the paid upsell)",
+      "verified": "2026-07-15",
+      "notes": "47-method score + real Perplexity-Sonar citation check. The ground-truth loop."
+    }
+  ],
+  "candidates_seen_but_not_added": [
+    {
+      "name": "aaron-he-zhu/aaron-marketing-skills",
+      "reason_rejected": "Breadth without the closing loop — 120 general marketing skills, none verify a citation. Fails Fader/Christensen: duplicates WRITE, adds no PROVE."
+    }
+  ]
+}

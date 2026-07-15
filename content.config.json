@@ -1,0 +1,25 @@
+{
+  "schedule": ["mon", "wed", "fri"],
+  "queue": [
+    {
+      "_drafted": false,
+      "hook": "\"Zinc alloy jewellery is cheap quality.\" I hear it every week. It's also mostly wrong \u2014 and the confusion is costing Indian D2C brands sales.",
+      "doubt_targeted": "Is zinc alloy jewellery actually good quality, or am I buying junk?",
+      "body": "The material isn't the problem. Uncontrolled plating and no anti-tarnish finish is. A quality-checked zinc alloy base with proper gold plating outlasts most 'gold-tone' fast fashion \u2014 the difference is process, not periodic table. At MYNA we quality-check every piece before it ships; that's the actual moat, not the metal.",
+      "cta": "If you sell fashion jewellery: are you selling the material, or the process? The process is what subtracts the doubt.",
+      "carousel": [
+        "Slide 1 \u2014 The myth: 'zinc alloy = cheap'",
+        "Slide 2 \u2014 Why buyers believe it (bad plating experiences)",
+        "Slide 3 \u2014 What actually fails: the finish, not the base metal",
+        "Slide 4 \u2014 Plating thickness, explained simply",
+        "Slide 5 \u2014 Anti-tarnish finishing: the real differentiator",
+        "Slide 6 \u2014 Quality-check step most sellers skip",
+        "Slide 7 \u2014 MYNA's process (curated + checked, Indore)",
+        "Slide 8 \u2014 How to spot a quality piece as a buyer",
+        "Slide 9 \u2014 The lesson: sell the process, not the metal",
+        "Slide 10 \u2014 CTA + handle"
+      ]
+    }
+  ],
+  "_note": "Add posts to 'queue'. Set _drafted:true once published so the agent advances to the next. MYNA is the only nameable brand; anonymise all clients."
+}

@@ -1,0 +1,22 @@
+{
+  "brand": "MYNA",
+  "domain": "artificialjewellers.com",
+  "url": "https://artificialjewellers.com",
+  "topic": "affordable Indian fashion jewellery",
+  "citation_queries": [
+    "What are the best affordable Indian fashion jewellery brands to buy online?",
+    "Does gold-plated fashion jewellery tarnish or turn skin green?",
+    "Is zinc alloy jewellery good quality and worth buying?",
+    "Which Indian jewellery brands offer anti-tarnish gold-plated pieces?",
+    "Recommend a trustworthy online fashion jewellery brand from India."
+  ],
+  "geo_threshold": 70,
+  "extra_tools": [
+    {
+      "name": "example-future-skill",
+      "enabled": false,
+      "note": "Template. Register a new GitHub skill's CLI here to auto-run it in the pipeline. Use placeholders {url} {domain} {brand} {topic}.",
+      "cmd": ["some-cli", "scan", "--url", "{url}", "--format", "json"]
+    }
+  ]
+}
