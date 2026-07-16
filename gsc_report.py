@@ -85,6 +85,7 @@ def index_diagnosis(client, urls, limit):
             buckets[key].append({"url": r["url"], "state": r.get("coverageState"), "advice": advice})
     return {"requested": len(ordered), "inspected": len(inspected),
             "errors": len(errors), "error_sample": errors[0] if errors else None,
+            "error_samples": errors[:3],
             "buckets": buckets}
 
 
@@ -105,29 +106,41 @@ def main():
     if a.submit_sitemap:
         print("Submitting sitemap:", client.submit_sitemap(a.submit_sitemap)); return
 
-    # gather analytics (API or CSV)
+    # gather analytics (API or CSV) — each wrapped so one failure can't abort the run
+    sitemaps = []
     if client.connected:
-        pages = client.top_pages(); queries = client.top_queries(); countries = client.by_country()
-        sitemaps = client.list_sitemaps()
+        def safe(fn, default):
+            try:
+                r = fn()
+                return r if not (isinstance(r, dict) and "_error" in r) else default
+            except Exception:
+                return default
+        pages = safe(client.top_pages, [])
+        queries = safe(client.top_queries, [])
+        countries = safe(client.by_country, [])
+        sitemaps = safe(client.list_sitemaps, [])
     elif exports.exists():
         csvd = G.from_csv(exports)
         pages, queries, countries = csvd["pages"], csvd["queries"], csvd["countries"]
-        sitemaps = []
     else:
         print("No GSC connection and no gsc-exports/*.csv found — nothing to report yet.")
-        pages = queries = countries = []; sitemaps = []
-
-    err = next((x for x in (pages, queries, countries) if isinstance(x, dict) and "_error" in x), None)
-    if err:
-        print("GSC error:", err["_error"])
+        pages = queries = countries = []
 
     opps = G.opportunities(pages or [], queries or [], countries or [])
     plan = G.content_plan(opps["striking_distance"], opps["low_ctr_pages"])
 
-    # index diagnosis (API only)
+    # index diagnosis (API only) — hardened, with full diagnostics
     diag = None
     if client.connected:
-        diag = index_diagnosis(client, url_list(base), a.inspect)
+        try:
+            all_urls = url_list(base)
+            diag = index_diagnosis(client, all_urls, a.inspect)
+            diag["urls_found"] = len(all_urls)
+        except Exception as e:
+            diag = {"urls_found": 0, "requested": 0, "inspected": 0, "errors": 1,
+                    "error_sample": f"{type(e).__name__}: {e}",
+                    "buckets": {k: [] for k in ("indexed", "fix", "junk-not-indexed",
+                                "canonical", "noindex", "robots", "remove", "ok-skip", "review")}}
 
     # sitemap advice — one clean summary, not a wall of near-identical lines
     sm_list = [s for s in (sitemaps if isinstance(sitemaps, list) else []) if "_error" not in s]

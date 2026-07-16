@@ -78,13 +78,16 @@ def render_gsc(g):
         push = len(b.get("fix", [])) + len(b.get("noindex", [])) + len(b.get("robots", []))
         junk = len(b.get("junk-not-indexed", [])) + len(b.get("remove", []))
         req = diag.get("requested", 0); ins = diag.get("inspected", 0); errs = diag.get("errors", 0)
-        parts.append(f'<p class="muted">Inspected {ins} of {req} sitemap URLs against Google\'s index'
+        found = diag.get("urls_found", req)
+        parts.append(f'<p class="muted">Found {found} URLs in sitemap · inspected {ins} against Google\'s index'
                      + (f' · {errs} failed' if errs else '') + '.</p>')
-        if ins == 0 and errs:
-            parts.append(f'<div class="empty">Index inspection failed for all URLs. Google said: '
-                         f'<b>{esc(diag.get("error_sample",""))}</b>. Usually this means the service account '
-                         f'needs <b>Full</b> permission in Search Console, or the daily URL-inspection quota was hit '
-                         f'(resets at midnight PT). Re-run tomorrow or check permissions.</div>')
+        samples = diag.get("error_samples") or ([diag.get("error_sample")] if diag.get("error_sample") else [])
+        if ins == 0 and samples:
+            errlist = "".join(f"<div>• {esc(s)}</div>" for s in samples if s)
+            parts.append(f'<div class="empty">Index inspection returned no data. Google said:{errlist}'
+                         f'<br>Likely: the service account needs <b>Full</b> permission in Search Console, '
+                         f'or the URL-inspection quota reset is pending. This will self-resolve on the next run, '
+                         f'or check the permission.</div>')
         parts.append('<div class="idx"><div class="idxc"><b>'+str(len(b.get("indexed",[])))+'</b><span>indexed</span></div>'
                      f'<div class="idxc push"><b>{push}</b><span>valuable · push these</span></div>'
                      f'<div class="idxc junk"><b>{junk}</b><span>junk · noindex/remove</span></div>'
