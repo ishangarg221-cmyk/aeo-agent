@@ -139,3 +139,18 @@ full sitemap on Sundays.** Set your daily pages in `myna.config.json → priorit
 python crawl_site.py --mode daily     # or: --mode weekly
 python build_dashboard.py
 ```
+
+---
+
+## Search Console agent (real Google data)
+`gsc_report.py` connects to Google Search Console and answers: which pages are/aren't
+indexed and why (the big one — sorts them into push-these vs remove-these), striking-
+distance queries, low-CTR pages, country gaps, a content plan from your real queries,
+and sitemap timing. Two ways to connect — see **SETUP_GSC.md** (fast CSV export, or full
+service-account auto-connect). Runs in the daily workflow; results show in a Search
+Console section on the dashboard.
+```
+python gsc_report.py                 # CSV mode (gsc-exports/) or API mode (service acct)
+python gsc_report.py --inspect 120   # inspect up to N URLs' index status (API mode)
+python gsc_report.py --submit-sitemap https://artificialjewellers.com/sitemap.xml
+```

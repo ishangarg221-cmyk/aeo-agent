@@ -5,3 +5,7 @@ beautifulsoup4>=4.12
 # Rigorous scoring + real citation check (SCORE + PROVE loops)
 # Provides the `geo` CLI and the `geo-mcp` server used by the pipeline and .mcp.json
 geo-optimizer-skill>=4.15
+
+# Google Search Console (API mode). CSV-export mode needs nothing extra.
+google-api-python-client>=2.0
+google-auth>=2.0

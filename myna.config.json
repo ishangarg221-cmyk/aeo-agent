@@ -31,5 +31,7 @@
     "https://artificialjewellers.com/",
     "https://artificialjewellers.com/collections/all"
   ],
-  "_pages_note": "priority_pages = audited every DAY. Leave empty to auto-pick homepage + first 20 sitemap URLs. All pages are audited WEEKLY (Sundays) regardless."
+  "_pages_note": "priority_pages = audited every DAY. Leave empty to auto-pick homepage + first 20 sitemap URLs. All pages are audited WEEKLY (Sundays) regardless.",
+  "gsc_property": "sc-domain:artificialjewellers.com",
+  "gsc_inspect_limit": 120
 }

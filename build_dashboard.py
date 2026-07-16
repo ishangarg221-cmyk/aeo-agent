@@ -67,8 +67,53 @@ def dcard(sev, text, brand):
     return f'<div class="doubt"><button class="doubt-head" onclick="this.parentElement.classList.toggle(\'open\')"><span class="sev" style="--c:{col}">{esc(sev)}</span><span class="doubt-q">\u201c{esc(d["doubt"])}\u201d</span><span class="chev">\u25be</span></button><div class="doubt-body"><div class="row"><span class="k">Whose doubt</span><span class="v">{esc(d["voice"])}</span></div><div class="row"><span class="k">Lens</span><span class="v">{esc(d["thinker"])} \u2014 {esc(d["principle"])}</span></div><div class="row subtract"><span class="k">Subtract it</span><span class="v">{esc(text)}</span></div></div></div>'
 
 
+def render_gsc(g):
+    if not g:
+        return ""
+    parts = ['<section><div class="eyebrow">Search Console — real Google data</div><div class="rule"></div>']
+    parts.append(f'<p class="muted" style="margin-top:12px">{g["totals"].get("clicks",0)} clicks · {g["totals"].get("impressions",0)} impressions (28d) · {esc(g.get("mode"))} mode</p>')
+    diag = g.get("index")
+    if diag:
+        b = diag["buckets"]
+        push = len(b.get("fix", [])) + len(b.get("noindex", [])) + len(b.get("robots", []))
+        junk = len(b.get("junk-not-indexed", [])) + len(b.get("remove", []))
+        parts.append('<div class="idx"><div class="idxc"><b>'+str(len(b.get("indexed",[])))+'</b><span>indexed</span></div>'
+                     f'<div class="idxc push"><b>{push}</b><span>valuable · push these</span></div>'
+                     f'<div class="idxc junk"><b>{junk}</b><span>junk · noindex/remove</span></div>'
+                     f'<div class="idxc"><b>{len(b.get("canonical",[]))}</b><span>canonical fix</span></div></div>')
+        pushlist = (b.get("fix", []) + b.get("noindex", []) + b.get("robots", []))[:10]
+        if pushlist:
+            parts.append('<p class="eyebrow" style="margin-top:22px">Push into the index — valuable pages Google is skipping</p>')
+            for it in pushlist:
+                parts.append(f'<div class="issue"><span class="issue-t">{esc(urlparse(it["url"]).path)}</span><span class="issue-n">{esc(it.get("state",""))}</span></div><div class="muted" style="margin:-4px 0 10px">{esc(it.get("advice",""))}</div>')
+        rmlist = (b.get("junk-not-indexed", []) + b.get("remove", []))[:8]
+        if rmlist:
+            parts.append('<p class="eyebrow" style="margin-top:18px">Safe to leave unindexed / noindex — junk &amp; duplicates</p>')
+            for it in rmlist:
+                parts.append(f'<div class="issue"><span class="issue-t">{esc(urlparse(it["url"]).path)}</span><span class="issue-n">{esc(it.get("state",""))}</span></div>')
+    opp = g.get("opportunities", {})
+    sd = opp.get("striking_distance", [])
+    if sd:
+        parts.append('<p class="eyebrow" style="margin-top:22px">Striking distance — one push from page one</p>')
+        for q in sd[:10]:
+            parts.append(f'<div class="issue"><span class="issue-t">{esc(q["query"])}</span><span class="issue-n">#{q["position"]} · {q["impressions"]} impr</span></div>')
+    plan = g.get("content_plan", [])
+    if plan:
+        parts.append('<p class="eyebrow" style="margin-top:22px">Content plan — build these next</p>')
+        for it in plan[:10]:
+            parts.append(f'<div class="issue"><span class="issue-t">{esc(it["target"])}</span><span class="issue-n">{esc(it["why"])}</span></div><div class="muted" style="margin:-4px 0 10px">{esc(it["action"])}</div>')
+    sm = g.get("sitemaps", [])
+    if sm:
+        parts.append('<p class="eyebrow" style="margin-top:18px">Sitemap</p>')
+        for s in sm:
+            parts.append(f'<div class="muted">{esc(s.get("path",""))} — {esc(s.get("note",""))}</div>')
+    parts.append("</section>")
+    return "".join(parts)
+
+
 def render_site(cr, content):
     brand = esc(cr["brand"]); geo, cited, total = geo_cite(cr["domain"])
+    gsc = load(HERE / "gsc-results.json")
     cite_txt = f"{cited}/{total} answers" if total else "no key yet"
     order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}
     dom = [(s, x) for sec in cr.get("domain_sections", {}).values() for (s, x) in sec.get("fixes", [])]
@@ -99,6 +144,7 @@ def render_site(cr, content):
         chtml = f"<div class='muted'>No post scheduled today. Next: {esc(content.get('next','\u2014'))}.</div>"
     mode = esc(cr.get("mode", ""))
     return PAGE.format(brand=brand, url=esc(cr["base"]), generated=esc(cr["generated"]),
+        gsc_section=render_gsc(gsc),
         avg_ring=ring(cr.get("avg_score"), "Avg readiness", f"{cr.get('audited',0)} pages \u00b7 {mode}"),
         geo_ring=ring(geo, "GEO score", "rigorous 47-method" if geo is not None else "run pipeline"),
         cite_ring=ring((cited/total*100) if total else None, "Cited by AI", cite_txt),
@@ -152,6 +198,9 @@ section{{margin-top:44px}}.coverage{{color:var(--muted);font-size:14px;margin-to
 .visit{{display:inline-block;margin-top:10px;color:var(--muted);font-size:13px}}
 .issue{{display:flex;align-items:center;gap:14px;padding:12px 4px;border-bottom:1px solid var(--line)}}.issue-t{{flex:1;font-size:15px}}.issue-n{{color:var(--muted);font-size:13px;white-space:nowrap}}
 .empty{{color:var(--muted);padding:16px;border:1px dashed var(--line);border-radius:12px}}.muted{{color:var(--muted);font-size:14px}}
+.idx{{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}}.idxc{{flex:1;min-width:120px;background:var(--glass);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}}
+.idxc b{{font-family:'Cormorant Garamond';font-size:32px;display:block}}.idxc span{{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}}
+.idxc.push{{border-color:rgba(224,145,58,.5)}}.idxc.junk{{border-color:rgba(111,125,120,.5)}}
 .more{{margin-top:16px}}.more summary{{cursor:pointer;color:var(--muted);font-size:14px}}
 .ptable{{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}}.ptable th,.ptable td{{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);color:var(--muted)}}
 pre.draft{{white-space:pre-wrap;font-family:'Jost';font-weight:300;font-size:14px;background:var(--glass);border:1px solid var(--line);border-radius:14px;padding:20px}}
@@ -163,6 +212,7 @@ footer{{margin-top:64px;color:var(--muted);font-size:12px;border-top:1px solid v
 <div class="meta">{url} · generated {generated} · runs daily</div></header>
 <div class="rings">{avg_ring}{geo_ring}{cite_ring}</div>
 <div class="coverage">{coverage}</div>
+{gsc_section}
 <section><div class="eyebrow">Sitewide fixes — one change helps every page</div><div class="rule"></div>{sitewide_band}</section>
 <section><div class="eyebrow">Most common page issues — highest leverage first</div><div class="rule"></div>{issue_rows}</section>
 <section><div class="eyebrow">Weakest pages — work top to bottom</div><div class="rule"></div>
