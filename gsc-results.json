@@ -1,0 +1,423 @@
+{
+  "brand": "MYNA",
+  "domain": "artificialjewellers.com",
+  "property": "sc-domain:artificialjewellers.com",
+  "mode": "api",
+  "generated": "16 Jul 2026, 08:51 UTC",
+  "totals": {
+    "clicks": 4,
+    "impressions": 74
+  },
+  "top_pages": [
+    {
+      "page": "https://artificialjewellers.com/",
+      "clicks": 3,
+      "impressions": 32,
+      "ctr": 9.38,
+      "position": 10.7
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/our-story",
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 25.0,
+      "position": 6.8
+    },
+    {
+      "page": "https://artificialjewellers.com/collections/earings",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.3
+    },
+    {
+      "page": "https://artificialjewellers.com/collections/necklaces",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 3.6
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/contact",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 4.7
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/faq",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/refund-policy",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.7
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/terms-of-service",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://artificialjewellers.com/policies/terms-of-service",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "https://artificialjewellers.com/products/aurelia-radiance-pendant-set",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "page": "https://artificialjewellers.com/products/aurra-leaf-pendant-set-1",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "https://artificialjewellers.com/products/celestia-bloom-pendant-set-copy",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "page": "https://artificialjewellers.com/products/esmera-pendant-set",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "page": "https://artificialjewellers.com/products/luxury-necklace-copy-copy-copy-copy-copy-copy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "page": "https://artificialjewellers.com/products/motiya-pearl-bangle-set",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    }
+  ],
+  "top_queries": [
+    {
+      "query": "myna jewellery",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 33.33,
+      "position": 5.7
+    },
+    {
+      "query": "artificial jewellery",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12.5
+    },
+    {
+      "query": "artificial jewellery indore",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "query": "artificial jewellery shop indore",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "query": "artificial jwellery",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "query": "mynas",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "premium",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "query": "sunday manday",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "query": "sunday monday",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 3.7
+    }
+  ],
+  "countries": [
+    {
+      "country": "ind",
+      "clicks": 4,
+      "impressions": 41,
+      "ctr": 9.76,
+      "position": 8.6
+    },
+    {
+      "country": "arg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "country": "arm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "country": "bra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "country": "can",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 13.5
+    },
+    {
+      "country": "hkg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "country": "irn",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "country": "ita",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "country": "mys",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "country": "prt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "country": "ukr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.8
+    }
+  ],
+  "top_country": {
+    "country": "ind",
+    "clicks": 4,
+    "impressions": 41,
+    "ctr": 9.76,
+    "position": 8.6
+  },
+  "opportunities": {
+    "low_ctr_pages": [],
+    "striking_distance": [],
+    "country_gaps": [],
+    "top_country": {
+      "country": "ind",
+      "clicks": 4,
+      "impressions": 41,
+      "ctr": 9.76,
+      "position": 8.6
+    }
+  },
+  "content_plan": [],
+  "sitemaps": [
+    {
+      "path": "http://artificialjewellers.com/writemmap.xml",
+      "lastDownloaded": "2021-09-26T00:01:52.750Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writelmap.xml",
+      "lastDownloaded": "",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK"
+    },
+    {
+      "path": "http://artificialjewellers.com/writekmap.xml",
+      "lastDownloaded": "2021-09-26T01:14:30.441Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writejmap.xml",
+      "lastDownloaded": "2021-09-25T23:59:02.257Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writeimap.xml",
+      "lastDownloaded": "",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK"
+    },
+    {
+      "path": "http://artificialjewellers.com/writehmap.xml",
+      "lastDownloaded": "2021-09-26T01:24:37.944Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writegmap.xml",
+      "lastDownloaded": "2021-09-26T00:57:11.308Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writefmap.xml",
+      "lastDownloaded": "2021-09-26T01:32:11.541Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writeemap.xml",
+      "lastDownloaded": "2021-09-24T23:35:31.707Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writedmap.xml",
+      "lastDownloaded": "2021-09-24T23:35:27.511Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writecmap.xml",
+      "lastDownloaded": "2021-09-25T23:59:53.525Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writebmap.xml",
+      "lastDownloaded": "2021-09-25T23:59:05.771Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writeamap.xml",
+      "lastDownloaded": "2021-09-27T21:09:55.303Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://artificialjewellers.com/writemap.xml",
+      "lastDownloaded": "2021-09-25T20:37:54.409Z",
+      "errors": "0",
+      "warnings": "0",
+      "note": "OK \u2014 not fetched in 14+ days; resubmit."
+    },
+    {
+      "path": "http://www.artificialjewellers.com/sitemap.xml",
+      "lastDownloaded": "2021-03-29T21:53:34.626Z",
+      "errors": "2",
+      "warnings": "3",
+      "note": "Has errors \u2014 fix then resubmit. \u2014 not fetched in 14+ days; resubmit."
+    }
+  ],
+  "index": {
+    "inspected": 1,
+    "buckets": {
+      "indexed": [],
+      "fix": [],
+      "junk-not-indexed": [],
+      "canonical": [],
+      "noindex": [],
+      "robots": [],
+      "remove": [],
+      "ok-skip": [],
+      "review": [
+        {
+          "url": "https://artificialjewellers.com/collections/all",
+          "state": "URL is unknown to Google",
+          "advice": "Review manually: URL is unknown to Google"
+        }
+      ]
+    }
+  }
+}
