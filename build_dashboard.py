@@ -77,6 +77,14 @@ def render_gsc(g):
         b = diag["buckets"]
         push = len(b.get("fix", [])) + len(b.get("noindex", [])) + len(b.get("robots", []))
         junk = len(b.get("junk-not-indexed", [])) + len(b.get("remove", []))
+        req = diag.get("requested", 0); ins = diag.get("inspected", 0); errs = diag.get("errors", 0)
+        parts.append(f'<p class="muted">Inspected {ins} of {req} sitemap URLs against Google\'s index'
+                     + (f' · {errs} failed' if errs else '') + '.</p>')
+        if ins == 0 and errs:
+            parts.append(f'<div class="empty">Index inspection failed for all URLs. Google said: '
+                         f'<b>{esc(diag.get("error_sample",""))}</b>. Usually this means the service account '
+                         f'needs <b>Full</b> permission in Search Console, or the daily URL-inspection quota was hit '
+                         f'(resets at midnight PT). Re-run tomorrow or check permissions.</div>')
         parts.append('<div class="idx"><div class="idxc"><b>'+str(len(b.get("indexed",[])))+'</b><span>indexed</span></div>'
                      f'<div class="idxc push"><b>{push}</b><span>valuable · push these</span></div>'
                      f'<div class="idxc junk"><b>{junk}</b><span>junk · noindex/remove</span></div>'
@@ -102,11 +110,12 @@ def render_gsc(g):
         parts.append('<p class="eyebrow" style="margin-top:22px">Content plan — build these next</p>')
         for it in plan[:10]:
             parts.append(f'<div class="issue"><span class="issue-t">{esc(it["target"])}</span><span class="issue-n">{esc(it["why"])}</span></div><div class="muted" style="margin:-4px 0 10px">{esc(it["action"])}</div>')
-    sm = g.get("sitemaps", [])
+    sm = g.get("sitemap_summary")
     if sm:
         parts.append('<p class="eyebrow" style="margin-top:18px">Sitemap</p>')
-        for s in sm:
-            parts.append(f'<div class="muted">{esc(s.get("path",""))} — {esc(s.get("note",""))}</div>')
+        parts.append(f'<div class="muted">{sm.get("count",0)} sitemap(s) submitted'
+                     + (f', {sm["with_errors"]} with errors' if sm.get("with_errors") else '')
+                     + f'. {esc(sm.get("recommendation",""))}</div>')
     parts.append("</section>")
     return "".join(parts)
 

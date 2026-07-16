@@ -38,26 +38,37 @@ def load(p: Path):
 
 
 def url_list(base):
-    """URLs to check index status for: crawl results if present, else sitemap."""
+    """URLs to check index status for — the FULL sitemap (that's where the
+    unindexed pages live). Falls back to crawl results, then homepage."""
+    try:
+        import crawl_site
+        urls = [u["url"] for u in crawl_site.collect_urls(base)]
+        if urls:
+            return urls
+    except Exception:
+        pass
     cr = load(HERE / "crawl-results.json")
     if cr and cr.get("pages"):
         return [p["url"] for p in cr["pages"]]
-    try:
-        import crawl_site
-        return [u["url"] for u in crawl_site.collect_urls(base)]
-    except Exception:
-        return []
+    return [base]
 
 
 def index_diagnosis(client, urls, limit):
-    """Inspect up to `limit` URLs, bucket them, and rank the fixes."""
-    urls = urls[:limit]
-    inspected = []
+    """Inspect up to `limit` URLs, bucket them, and SURFACE errors."""
+    # de-dupe, keep order, cap
+    seen, ordered = set(), []
+    for u in urls:
+        if u not in seen:
+            seen.add(u); ordered.append(u)
+    ordered = ordered[:limit]
+    inspected, errors = [], []
     with ThreadPoolExecutor(max_workers=4) as ex:
-        futs = {ex.submit(client.inspect, u): u for u in urls}
+        futs = {ex.submit(client.inspect, u): u for u in ordered}
         for f in as_completed(futs):
             r = f.result()
-            if "_error" not in r:
+            if "_error" in r:
+                errors.append(r["_error"])
+            else:
                 inspected.append(r)
     buckets = {"indexed": [], "fix": [], "junk-not-indexed": [], "canonical": [],
                "noindex": [], "robots": [], "remove": [], "ok-skip": [], "review": []}
@@ -72,7 +83,9 @@ def index_diagnosis(client, urls, limit):
         else:
             key = bucket if bucket in buckets else "review"
             buckets[key].append({"url": r["url"], "state": r.get("coverageState"), "advice": advice})
-    return {"inspected": len(inspected), "buckets": buckets}
+    return {"requested": len(ordered), "inspected": len(inspected),
+            "errors": len(errors), "error_sample": errors[0] if errors else None,
+            "buckets": buckets}
 
 
 def main():
@@ -116,22 +129,27 @@ def main():
     if client.connected:
         diag = index_diagnosis(client, url_list(base), a.inspect)
 
-    # sitemap advice
-    sm_advice = []
-    for sm in sitemaps if isinstance(sitemaps, list) else []:
-        if "_error" in sm:
-            continue
-        last = sm.get("lastDownloaded", "")
-        stale = ""
+    # sitemap advice — one clean summary, not a wall of near-identical lines
+    sm_list = [s for s in (sitemaps if isinstance(sitemaps, list) else []) if "_error" not in s]
+    total = len({s.get("path") for s in sm_list})
+    with_errors = sum(1 for s in sm_list if int(s.get("errors", 0) or 0) > 0)
+    stale = 0
+    for s in sm_list:
         try:
-            d = dt.datetime.fromisoformat(last.replace("Z", "+00:00"))
+            d = dt.datetime.fromisoformat((s.get("lastDownloaded", "") or "").replace("Z", "+00:00"))
             if (dt.datetime.now(dt.timezone.utc) - d).days > 14:
-                stale = " — not fetched in 14+ days; resubmit."
+                stale += 1
         except Exception:
             pass
-        sm_advice.append({"path": sm.get("path"), "lastDownloaded": last,
-                          "errors": sm.get("errors", 0), "warnings": sm.get("warnings", 0),
-                          "note": ("Has errors — fix then resubmit." if int(sm.get("errors", 0) or 0) else "OK") + stale})
+    if total == 0:
+        rec = "No sitemap submitted. Submit https://" + cfg["domain"] + "/sitemap.xml in Search Console."
+    elif with_errors:
+        rec = f"{with_errors} sitemap(s) have errors — open Search Console → Sitemaps, fix, then resubmit."
+    elif stale:
+        rec = f"{stale} sitemap(s) not fetched in 14+ days — resubmit to prompt a re-crawl."
+    else:
+        rec = "Sitemaps look healthy — Google is fetching them."
+    sm_summary = {"count": total, "with_errors": with_errors, "stale": stale, "recommendation": rec}
 
     out = {
         "brand": cfg["brand"], "domain": cfg["domain"], "property": prop, "mode": mode,
@@ -141,7 +159,7 @@ def main():
         "top_pages": (pages or [])[:15], "top_queries": (queries or [])[:20],
         "countries": (countries or [])[:15], "top_country": opps["top_country"],
         "opportunities": opps, "content_plan": plan,
-        "sitemaps": sm_advice, "index": diag,
+        "sitemap_summary": sm_summary, "index": diag,
     }
     (HERE / "gsc-results.json").write_text(json.dumps(out, indent=2, default=str), encoding="utf-8")
 
@@ -150,7 +168,10 @@ def main():
     print(f"  clicks {out['totals']['clicks']} · impressions {out['totals']['impressions']}")
     if diag:
         b = diag["buckets"]
-        print(f"  index: {len(b['indexed'])} indexed of {diag['inspected']} inspected")
+        print(f"  index: inspected {diag['inspected']}/{diag.get('requested',0)} · errors {diag.get('errors',0)}")
+        if diag.get("error_sample"):
+            print(f"    ! inspection error sample: {diag['error_sample']}")
+        print(f"    {len(b['indexed'])} indexed")
         print(f"    → push these (valuable, not indexed): {len(b['fix'])+len(b['noindex'])+len(b['robots'])}")
         print(f"    → remove/ignore (junk not indexed): {len(b['junk-not-indexed'])+len(b['remove'])}")
         print(f"    → canonical fixes: {len(b['canonical'])}")
