@@ -1,6 +1,5 @@
 name: Daily AEO Dashboard
 
-# 03:30 UTC = 09:00 IST daily. Also runnable on demand from the Actions tab.
 on:
   schedule:
     - cron: "30 3 * * *"
@@ -22,18 +21,19 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
 
-      - name: Audit site + build dashboard (DRAFTS ONLY — no live writes)
+      - name: Audit site + GSC + build dashboard (DRAFTS ONLY)
         continue-on-error: true
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
           SHOPIFY_STORE:       ${{ secrets.SHOPIFY_STORE }}
           SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          GSC_CREDENTIALS_JSON: ${{ secrets.GSC_CREDENTIALS_JSON }}
         run: |
-          # Sundays (day 7) = full sitemap; other days = top priority pages
           if [ "$(date -u +%u)" = "7" ]; then MODE=weekly; else MODE=daily; fi
           echo "Crawl mode: $MODE"
-          python morning_digest.py
-          python crawl_site.py --mode "$MODE"
+          python morning_digest.py || true
+          python crawl_site.py --mode "$MODE" || true
+          python gsc_report.py --inspect 120 || true
           python build_dashboard.py
 
       - name: Upload dashboard for Pages
@@ -41,12 +41,12 @@ jobs:
         with:
           path: dashboard
 
-      - name: Save history back to repo (for the trend line)
+      - name: Save history back to repo
         continue-on-error: true
         run: |
           git config user.name  "aeo-agent"
           git config user.email "aeo-agent@users.noreply.github.com"
-          git add baselines digest pending-fixes crawl-results.json 2>/dev/null || true
+          git add baselines digest pending-fixes crawl-results.json gsc-results.json 2>/dev/null || true
           git commit -m "daily audit $(date -u +%Y-%m-%d)" || echo "nothing to commit"
           git push || echo "push skipped"
 
