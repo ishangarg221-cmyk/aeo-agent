@@ -2,11 +2,11 @@
   "brand": "MYNA",
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
-  "mode": "daily",
-  "generated": "18 Jul 2026, 05:41 UTC",
-  "sitemap_total": 68,
-  "audited": 2,
-  "avg_score": 59,
+  "mode": "weekly",
+  "generated": "19 Jul 2026, 06:14 UTC",
+  "sitemap_total": 42,
+  "audited": 42,
+  "avg_score": 56,
   "domain_sections": {
     "Crawlability (AI bots)": {
       "score": 20,
@@ -17,19 +17,49 @@
       "fixes": []
     },
     "llms.txt": {
-      "score": 10,
+      "score": 0,
       "max": 10,
       "findings": [
-        "/llms.txt present and structured (5 links)."
+        "No /llms.txt \u2014 AI engines have no curated map of your key pages."
       ],
-      "fixes": []
+      "fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ]
+      ]
     }
   },
   "sitewide_issues": [
     {
+      "issue": "Publish /llms",
+      "sev": "HIGH",
+      "count": 13
+    },
+    {
+      "issue": "Low text-to-code ratio \u2014 thin extractable content relative to markup",
+      "sev": "HIGH",
+      "count": 13
+    },
+    {
+      "issue": "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 ",
+      "sev": "HIGH",
+      "count": 13
+    },
+    {
+      "issue": "Write a 50-165 char meta description stating what the page factually is",
+      "sev": "MEDIUM",
+      "count": 10
+    },
+    {
       "issue": "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList",
       "sev": "HIGH",
-      "count": 2
+      "count": 7
+    },
+    {
+      "issue": "Add missing high-value schema: Organization, BreadcrumbList",
+      "sev": "HIGH",
+      "count": 6
     },
     {
       "issue": "Add question-style headings + a 40-60 word direct answer immediately under each",
@@ -37,27 +67,121 @@
       "count": 2
     },
     {
-      "issue": "Low text-to-code ratio \u2014 thin extractable content relative to markup",
-      "sev": "HIGH",
-      "count": 2
+      "issue": "Use exactly one H1 (found 2)",
+      "sev": "MEDIUM",
+      "count": 1
     },
     {
-      "issue": "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 ",
-      "sev": "HIGH",
-      "count": 2
+      "issue": "Title is 73 chars \u2014 aim 15-65 with the brand + primary entity",
+      "sev": "MEDIUM",
+      "count": 1
     },
     {
-      "issue": "Write a 50-165 char meta description stating what the page factually is",
+      "issue": "Title is 72 chars \u2014 aim 15-65 with the brand + primary entity",
       "sev": "MEDIUM",
       "count": 1
     }
   ],
   "pages": [
     {
+      "url": "https://artificialjewellers.com/products/noorika-traditional-jhumka-earrings",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/esmera-pendant-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/pearl-ruby-pink-gold-bangles-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/agents.md",
+      "score": null,
+      "error": "503",
+      "type": "other"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/velora-pendant-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/aurelia-feather-pendant-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/roselle-pendant-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/aurra-leaf-pendant-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/lumina-pendant-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/suhani-grace-bangle-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/rajsi-peacock-kada-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/emerelle-pearl-floral-bangles",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/roselle-pearl-bloom-bangles",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/motiya-pearl-bangle-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/noor-mahal-pearl-heritage-bangle-set",
+      "score": null,
+      "error": "503",
+      "type": "product"
+    },
+    {
       "url": "https://artificialjewellers.com/",
-      "score": 61,
-      "grade": "C \u2014 visible but leaking citations",
+      "score": 51,
+      "grade": "D \u2014 hard to cite",
       "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
         [
           "HIGH",
           "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
@@ -78,10 +202,410 @@
       "type": "home"
     },
     {
-      "url": "https://artificialjewellers.com/collections/all",
-      "score": 57,
+      "url": "https://artificialjewellers.com/products/saphira-necklace-set",
+      "score": 61,
       "grade": "C \u2014 visible but leaking citations",
       "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/contact",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/aurelia-radiance-pendant-set",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Title is 73 chars \u2014 aim 15-65 with the brand + primary entity."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/our-story",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/emerald-pearl-grace-bangle-set",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/data-sharing-opt-out",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/pearlora-bangles",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/shipping-policy",
+      "score": 56,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/returns-exchanges",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/pearl-radiance-bangle-pair",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/size-guide",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/faqs",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/faq",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/track-order",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/craftsmanship",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/sustainability",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/wholesale",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/affiliates",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/terms-of-service",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/notes-from-myna",
+      "score": 52,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/kp-account",
+      "score": null,
+      "error": "503",
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/privacy-policy",
+      "score": 49,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/refund-policy",
+      "score": 52,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Title is 72 chars \u2014 aim 15-65 with the brand + primary entity."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/jewellery-care",
+      "score": 52,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/our-process",
+      "score": 47,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
+        ],
         [
           "HIGH",
           "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
@@ -103,7 +627,7 @@
           "Write a 50-165 char meta description stating what the page factually is."
         ]
       ],
-      "type": "collection"
+      "type": "page"
     }
   ]
 }
