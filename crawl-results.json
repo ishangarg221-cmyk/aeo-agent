@@ -2,11 +2,11 @@
   "brand": "MYNA",
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
-  "mode": "daily",
-  "generated": "25 Jul 2026, 06:00 UTC",
-  "sitemap_total": 69,
-  "audited": 2,
-  "avg_score": 60,
+  "mode": "weekly",
+  "generated": "26 Jul 2026, 06:20 UTC",
+  "sitemap_total": 68,
+  "audited": 68,
+  "avg_score": 64,
   "domain_sections": {
     "Crawlability (AI bots)": {
       "score": 20,
@@ -27,42 +27,101 @@
   },
   "sitewide_issues": [
     {
-      "issue": "Add question-style headings + a 40-60 word direct answer immediately under each",
+      "issue": "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 ",
       "sev": "HIGH",
-      "count": 2
+      "count": 68
     },
     {
       "issue": "Low text-to-code ratio \u2014 thin extractable content relative to markup",
       "sev": "HIGH",
-      "count": 2
-    },
-    {
-      "issue": "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 ",
-      "sev": "HIGH",
-      "count": 2
-    },
-    {
-      "issue": "Add missing high-value schema: Product, FAQPage, BreadcrumbList",
-      "sev": "HIGH",
-      "count": 1
+      "count": 66
     },
     {
       "issue": "Use exactly one H1 (found 2)",
       "sev": "MEDIUM",
-      "count": 1
+      "count": 52
     },
     {
       "issue": "Write a 50-165 char meta description stating what the page factually is",
       "sev": "MEDIUM",
-      "count": 1
+      "count": 48
+    },
+    {
+      "issue": "Add missing high-value schema: Product, FAQPage, BreadcrumbList",
+      "sev": "HIGH",
+      "count": 43
+    },
+    {
+      "issue": "Add question-style headings + a 40-60 word direct answer immediately under each",
+      "sev": "HIGH",
+      "count": 39
+    },
+    {
+      "issue": "Add missing high-value schema: BreadcrumbList",
+      "sev": "HIGH",
+      "count": 17
+    },
+    {
+      "issue": "Only 148 words in raw HTML",
+      "sev": "CRITICAL",
+      "count": 4
     },
     {
       "issue": "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList",
       "sev": "HIGH",
-      "count": 1
+      "count": 4
+    },
+    {
+      "issue": "Add missing high-value schema: Product, BreadcrumbList",
+      "sev": "HIGH",
+      "count": 3
     }
   ],
   "pages": [
+    {
+      "url": "https://artificialjewellers.com/agents.md",
+      "score": 45,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Add JSON-LD schema. For a store: Organization + Product + BreadcrumbList + FAQPage. This is how AI engines extract facts (price, brand, material) and attribute them to YOU."
+        ],
+        [
+          "HIGH",
+          "Break content into clear H2 question-style sections. LLMs cite passages under headers that match user questions (e.g. 'Does gold plating tarnish?')."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 0). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Add scannable lists / comparison tables \u2014 AI engines lift these verbatim into answers."
+        ],
+        [
+          "MEDIUM",
+          "Title is 0 chars \u2014 aim 15-65 with the brand + primary entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ],
+        [
+          "LOW",
+          "Add a canonical link to consolidate entity signals."
+        ]
+      ],
+      "type": "other"
+    },
     {
       "url": "https://artificialjewellers.com/",
       "score": 61,
@@ -88,7 +147,1195 @@
       "type": "home"
     },
     {
-      "url": "https://artificialjewellers.com/collections/all",
+      "url": "https://artificialjewellers.com/products/pearl-ruby-pink-gold-bangles-set",
+      "score": 72,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/esmera-pendant-set",
+      "score": 68,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/velora-pendant-set",
+      "score": 77,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/noorika-traditional-jhumka-earrings",
+      "score": 69,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Title is 84 chars \u2014 aim 15-65 with the brand + primary entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/roselle-pendant-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/lumina-pendant-set",
+      "score": 68,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/saphira-necklace-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/aurra-leaf-pendant-set",
+      "score": 77,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/aurelia-feather-pendant-set",
+      "score": 77,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/rajsi-peacock-kada-set",
+      "score": 77,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/emerald-pearl-grace-bangle-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/suhani-grace-bangle-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/pearlora-bangles",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/pearl-radiance-bangle-pair",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/emerelle-pearl-floral-bangles",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/roselle-pearl-bloom-bangles",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/motiya-pearl-bangle-set",
+      "score": 77,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/aurelia-radiance-pendant-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Title is 73 chars \u2014 aim 15-65 with the brand + primary entity."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/noor-mahal-pearl-heritage-bangle-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Title is 67 chars \u2014 aim 15-65 with the brand + primary entity."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
+      "score": 73,
+      "grade": "B \u2014 strong, minor gaps",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Title is 72 chars \u2014 aim 15-65 with the brand + primary entity."
+        ]
+      ],
+      "type": "product"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/contact",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/our-story",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/data-sharing-opt-out",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/shipping-policy",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/returns-exchanges",
+      "score": 67,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/size-guide",
+      "score": 66,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/jewellery-care",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/faqs",
+      "score": 58,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Title is 12 chars \u2014 aim 15-65 with the brand + primary entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/faq",
+      "score": 58,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Title is 11 chars \u2014 aim 15-65 with the brand + primary entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/track-order",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 271 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/privacy-policy",
+      "score": 64,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/our-process",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 150 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/craftsmanship",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 148 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/wholesale",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 148 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/sustainability",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 148 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/affiliates",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 148 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/terms-of-service",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/refund-policy",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/pages/kp-account",
+      "score": 54,
+      "grade": "D \u2014 hard to cite",
+      "ranked_fixes": [
+        [
+          "CRITICAL",
+          "Only 150 words in raw HTML. If content renders client-side (JS), most AI crawlers won't see it. Server-render or pre-render key content."
+        ],
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "page"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/rings-bangles",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/bracelets-sets",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/necklaces",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/jewellery-sets",
       "score": 59,
       "grade": "C \u2014 visible but leaking citations",
       "ranked_fixes": [
@@ -118,6 +1365,702 @@
         ]
       ],
       "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/rings-bangles-1",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/earrings",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/pendants",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/bridal",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/kangans",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/bestsellers",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/polki",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/kundan",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/maang-tikkas",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/temple-sets",
+      "score": 63,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/haath-phool",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/new-arrivals",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/sale",
+      "score": 55,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Title is 12 chars \u2014 aim 15-65 with the brand + primary entity."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/anklets",
+      "score": 59,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/how-to-build-your-everyday-jewellery-edit",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna",
+      "score": 64,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/the-right-way-to-care-for-your-jewellery",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/jewellery-for-every-chapter-of-your-day",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/the-quiet-luxury-edit-why-less-always-says-more",
+      "score": 67,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
+      "score": 67,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/jewellery-and-skin-choosing-pieces-that-love-you-back",
+      "score": 67,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/the-modern-case-for-artificial-jewellery",
+      "score": 67,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
+    },
+    {
+      "url": "https://artificialjewellers.com/blogs/notes-from-myna/the-complete-bridal-jewellery-guide-for-every-ceremony",
+      "score": 62,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ],
+        [
+          "MEDIUM",
+          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
+        ],
+        [
+          "MEDIUM",
+          "Write a 50-165 char meta description stating what the page factually is."
+        ]
+      ],
+      "type": "article"
     }
   ]
 }
