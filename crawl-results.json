@@ -3,10 +3,10 @@
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
   "mode": "daily",
-  "generated": "28 Jul 2026, 06:07 UTC",
+  "generated": "29 Jul 2026, 06:13 UTC",
   "sitemap_total": 68,
   "audited": 2,
-  "avg_score": 60,
+  "avg_score": 59,
   "domain_sections": {
     "Crawlability (AI bots)": {
       "score": 20,
@@ -27,6 +27,11 @@
   },
   "sitewide_issues": [
     {
+      "issue": "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList",
+      "sev": "HIGH",
+      "count": 2
+    },
+    {
       "issue": "Add question-style headings + a 40-60 word direct answer immediately under each",
       "sev": "HIGH",
       "count": 2
@@ -42,23 +47,8 @@
       "count": 2
     },
     {
-      "issue": "Add missing high-value schema: Product, FAQPage, BreadcrumbList",
-      "sev": "HIGH",
-      "count": 1
-    },
-    {
-      "issue": "Use exactly one H1 (found 2)",
-      "sev": "MEDIUM",
-      "count": 1
-    },
-    {
       "issue": "Write a 50-165 char meta description stating what the page factually is",
       "sev": "MEDIUM",
-      "count": 1
-    },
-    {
-      "issue": "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList",
-      "sev": "HIGH",
       "count": 1
     }
   ],
@@ -89,12 +79,12 @@
     },
     {
       "url": "https://artificialjewellers.com/collections/all",
-      "score": 59,
+      "score": 57,
       "grade": "C \u2014 visible but leaking citations",
       "ranked_fixes": [
         [
           "HIGH",
-          "Add missing high-value schema: Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
         ],
         [
           "HIGH",
@@ -107,10 +97,6 @@
         [
           "HIGH",
           "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
-        ],
-        [
-          "MEDIUM",
-          "Use exactly one H1 (found 2). AI parsers use it as the page's primary claim."
         ],
         [
           "MEDIUM",
