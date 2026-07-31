@@ -3,10 +3,10 @@
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
   "mode": "daily",
-  "generated": "30 Jul 2026, 06:05 UTC",
-  "sitemap_total": 47,
+  "generated": "31 Jul 2026, 06:28 UTC",
+  "sitemap_total": 68,
   "audited": 2,
-  "avg_score": 49,
+  "avg_score": 59,
   "domain_sections": {
     "Crawlability (AI bots)": {
       "score": 20,
@@ -17,25 +17,15 @@
       "fixes": []
     },
     "llms.txt": {
-      "score": 0,
+      "score": 10,
       "max": 10,
       "findings": [
-        "No /llms.txt \u2014 AI engines have no curated map of your key pages."
+        "/llms.txt present and structured (5 links)."
       ],
-      "fixes": [
-        [
-          "HIGH",
-          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
-        ]
-      ]
+      "fixes": []
     }
   },
   "sitewide_issues": [
-    {
-      "issue": "Publish /llms",
-      "sev": "HIGH",
-      "count": 2
-    },
     {
       "issue": "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList",
       "sev": "HIGH",
@@ -65,13 +55,9 @@
   "pages": [
     {
       "url": "https://artificialjewellers.com/",
-      "score": 51,
-      "grade": "D \u2014 hard to cite",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
       "ranked_fixes": [
-        [
-          "HIGH",
-          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
-        ],
         [
           "HIGH",
           "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
@@ -93,13 +79,9 @@
     },
     {
       "url": "https://artificialjewellers.com/collections/all",
-      "score": 47,
-      "grade": "D \u2014 hard to cite",
+      "score": 57,
+      "grade": "C \u2014 visible but leaking citations",
       "ranked_fixes": [
-        [
-          "HIGH",
-          "Publish /llms.txt: a markdown index of your most important pages (products, about, FAQ, policies) with 1-line descriptions. This is one of the highest-leverage low-effort AEO wins."
-        ],
         [
           "HIGH",
           "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
