@@ -3,17 +3,17 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "28 Aug 2026, 15:33 UTC",
+  "generated": "29 Aug 2026, 10:18 UTC",
   "totals": {
     "clicks": 6,
-    "impressions": 744
+    "impressions": 730
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 3,
-      "impressions": 128,
-      "ctr": 2.34,
+      "impressions": 123,
+      "ctr": 2.44,
       "position": 7.5
     },
     {
@@ -26,9 +26,9 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 61,
-      "ctr": 1.64,
-      "position": 42.2
+      "impressions": 59,
+      "ctr": 1.69,
+      "position": 42.9
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
@@ -61,9 +61,9 @@
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/the-complete-bridal-jewellery-guide-for-every-ceremony",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 14.6
+      "position": 18
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/the-modern-case-for-artificial-jewellery",
@@ -261,23 +261,23 @@
     {
       "country": "ind",
       "clicks": 4,
-      "impressions": 558,
+      "impressions": 553,
       "ctr": 0.72,
-      "position": 40.3
+      "position": 40.6
     },
     {
       "country": "aut",
       "clicks": 1,
-      "impressions": 3,
-      "ctr": 33.33,
-      "position": 2
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 1
     },
     {
       "country": "pak",
       "clicks": 1,
-      "impressions": 9,
-      "ctr": 11.11,
-      "position": 22.4
+      "impressions": 8,
+      "ctr": 12.5,
+      "position": 24.6
     },
     {
       "country": "are",
@@ -338,9 +338,9 @@
     {
       "country": "fra",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 16.5
+      "position": 21
     },
     {
       "country": "gbr",
@@ -367,9 +367,9 @@
   "top_country": {
     "country": "ind",
     "clicks": 4,
-    "impressions": 558,
+    "impressions": 553,
     "ctr": 0.72,
-    "position": 40.3
+    "position": 40.6
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -378,17 +378,17 @@
       {
         "country": "ind",
         "clicks": 4,
-        "impressions": 558,
+        "impressions": 553,
         "ctr": 0.72,
-        "position": 40.3
+        "position": 40.6
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 4,
-      "impressions": 558,
+      "impressions": 553,
       "ctr": 0.72,
-      "position": 40.3
+      "position": 40.6
     }
   },
   "content_plan": [],
@@ -402,13 +402,13 @@
     "requested": 2,
     "inspected": 1,
     "errors": 1,
-    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_sample": "The read operation timed out",
     "error_samples": [
-      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+      "The read operation timed out"
     ],
     "buckets": {
       "indexed": [
-        "https://artificialjewellers.com/"
+        "https://artificialjewellers.com/collections/all"
       ],
       "fix": [],
       "junk-not-indexed": [],
