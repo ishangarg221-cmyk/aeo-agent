@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "29 Aug 2026, 10:18 UTC",
+  "generated": "30 Aug 2026, 09:22 UTC",
   "totals": {
     "clicks": 6,
-    "impressions": 730
+    "impressions": 761
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 3,
-      "impressions": 123,
-      "ctr": 2.44,
-      "position": 7.5
+      "impressions": 126,
+      "ctr": 2.38,
+      "position": 7.4
     },
     {
       "page": "https://artificialjewellers.com/collections/bestsellers",
@@ -26,9 +26,9 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 59,
-      "ctr": 1.69,
-      "position": 42.9
+      "impressions": 60,
+      "ctr": 1.67,
+      "position": 43.0
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
@@ -103,16 +103,16 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 156,
+      "impressions": 165,
       "ctr": 0,
       "position": 65.4
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 86,
+      "impressions": 96,
       "ctr": 0,
-      "position": 47.9
+      "position": 48.5
     }
   ],
   "top_queries": [
@@ -121,7 +121,7 @@
       "clicks": 1,
       "impressions": 19,
       "ctr": 5.26,
-      "position": 3.1
+      "position": 2.8
     },
     {
       "query": "3 piece bridal jewelry sets",
@@ -161,23 +161,23 @@
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 26,
       "ctr": 0,
-      "position": 63.4
+      "position": 63.5
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 19,
       "ctr": 0,
-      "position": 54.8
+      "position": 55.9
     },
     {
       "query": "artificial bridal jewellery sets with price",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 65
+      "position": 62
     },
     {
       "query": "artificial earring",
@@ -189,23 +189,23 @@
     {
       "query": "artificial earring designs",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 50.8
+      "position": 52
     },
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 51.5
+      "position": 51.4
     },
     {
       "query": "artificial earrings",
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 20,
       "ctr": 0,
-      "position": 47.5
+      "position": 47.6
     },
     {
       "query": "artificial earrings design",
@@ -217,23 +217,23 @@
     {
       "query": "artificial earrings designs",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 51.3
+      "position": 52
     },
     {
       "query": "artificial earrings for women",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 57
+      "position": 57.7
     },
     {
       "query": "artificial earrings online",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 19,
       "ctr": 0,
-      "position": 50.7
+      "position": 52.5
     },
     {
       "query": "artificial jewellery bangles",
@@ -261,9 +261,9 @@
     {
       "country": "ind",
       "clicks": 4,
-      "impressions": 553,
-      "ctr": 0.72,
-      "position": 40.6
+      "impressions": 579,
+      "ctr": 0.69,
+      "position": 40.8
     },
     {
       "country": "aut",
@@ -282,9 +282,9 @@
     {
       "country": "are",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 24.3
+      "position": 19
     },
     {
       "country": "aus",
@@ -336,13 +336,6 @@
       "position": 4
     },
     {
-      "country": "fra",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 21
-    },
-    {
       "country": "gbr",
       "clicks": 0,
       "impressions": 15,
@@ -362,36 +355,57 @@
       "impressions": 1,
       "ctr": 0,
       "position": 8
+    },
+    {
+      "country": "hrv",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
     }
   ],
   "top_country": {
     "country": "ind",
     "clicks": 4,
-    "impressions": 553,
-    "ctr": 0.72,
-    "position": 40.6
+    "impressions": 579,
+    "ctr": 0.69,
+    "position": 40.8
   },
   "opportunities": {
     "low_ctr_pages": [],
-    "striking_distance": [],
+    "striking_distance": [
+      {
+        "query": "kangans",
+        "clicks": 0,
+        "impressions": 33,
+        "ctr": 0,
+        "position": 8.5
+      }
+    ],
     "country_gaps": [
       {
         "country": "ind",
         "clicks": 4,
-        "impressions": 553,
-        "ctr": 0.72,
-        "position": 40.6
+        "impressions": 579,
+        "ctr": 0.69,
+        "position": 40.8
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 4,
-      "impressions": 553,
-      "ctr": 0.72,
-      "position": 40.6
+      "impressions": 579,
+      "ctr": 0.69,
+      "position": 40.8
     }
   },
-  "content_plan": [],
+  "content_plan": [
+    {
+      "target": "kangans",
+      "why": "ranks #8.5 with 33 impressions/mo",
+      "action": "Create or expand a page that directly answers this query \u2014 a question-style H2 + a 40-60 word direct answer + supporting detail. You're one page from page-one."
+    }
+  ],
   "sitemap_summary": {
     "count": 15,
     "with_errors": 1,
@@ -399,16 +413,14 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 2,
+    "requested": 1,
     "inspected": 1,
-    "errors": 1,
-    "error_sample": "The read operation timed out",
-    "error_samples": [
-      "The read operation timed out"
-    ],
+    "errors": 0,
+    "error_sample": null,
+    "error_samples": [],
     "buckets": {
       "indexed": [
-        "https://artificialjewellers.com/collections/all"
+        "https://artificialjewellers.com"
       ],
       "fix": [],
       "junk-not-indexed": [],
@@ -419,6 +431,6 @@
       "ok-skip": [],
       "review": []
     },
-    "urls_found": 2
+    "urls_found": 1
   }
 }
