@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "30 Aug 2026, 09:22 UTC",
+  "generated": "31 Aug 2026, 09:58 UTC",
   "totals": {
-    "clicks": 6,
-    "impressions": 761
+    "clicks": 7,
+    "impressions": 825
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
-      "clicks": 3,
-      "impressions": 126,
-      "ctr": 2.38,
-      "position": 7.4
+      "clicks": 4,
+      "impressions": 132,
+      "ctr": 3.03,
+      "position": 7.3
     },
     {
       "page": "https://artificialjewellers.com/collections/bestsellers",
@@ -26,9 +26,9 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 60,
-      "ctr": 1.67,
-      "position": 43.0
+      "impressions": 67,
+      "ctr": 1.49,
+      "position": 42.5
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
@@ -63,7 +63,7 @@
       "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 18
+      "position": 11.5
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/the-modern-case-for-artificial-jewellery",
@@ -82,9 +82,9 @@
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 22.4
+      "position": 20
     },
     {
       "page": "https://artificialjewellers.com/collections",
@@ -103,24 +103,24 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 165,
+      "impressions": 177,
       "ctr": 0,
-      "position": 65.4
+      "position": 65.7
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 96,
+      "impressions": 119,
       "ctr": 0,
-      "position": 48.5
+      "position": 48.7
     }
   ],
   "top_queries": [
     {
       "query": "myna jewellery",
       "clicks": 1,
-      "impressions": 19,
-      "ctr": 5.26,
+      "impressions": 21,
+      "ctr": 4.76,
       "position": 2.8
     },
     {
@@ -161,14 +161,14 @@
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 26,
+      "impressions": 29,
       "ctr": 0,
-      "position": 63.5
+      "position": 64.9
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 20,
       "ctr": 0,
       "position": 55.9
     },
@@ -189,23 +189,23 @@
     {
       "query": "artificial earring designs",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 7,
       "ctr": 0,
-      "position": 52
+      "position": 52.7
     },
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 8,
       "ctr": 0,
-      "position": 51.4
+      "position": 52.2
     },
     {
       "query": "artificial earrings",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 24,
       "ctr": 0,
-      "position": 47.6
+      "position": 47.5
     },
     {
       "query": "artificial earrings design",
@@ -217,9 +217,9 @@
     {
       "query": "artificial earrings designs",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 52
+      "position": 52.7
     },
     {
       "query": "artificial earrings for women",
@@ -231,9 +231,9 @@
     {
       "query": "artificial earrings online",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 21,
       "ctr": 0,
-      "position": 52.5
+      "position": 52.3
     },
     {
       "query": "artificial jewellery bangles",
@@ -260,10 +260,10 @@
   "countries": [
     {
       "country": "ind",
-      "clicks": 4,
-      "impressions": 579,
-      "ctr": 0.69,
-      "position": 40.8
+      "clicks": 5,
+      "impressions": 631,
+      "ctr": 0.79,
+      "position": 41.2
     },
     {
       "country": "aut",
@@ -357,19 +357,19 @@
       "position": 8
     },
     {
-      "country": "hrv",
+      "country": "hkg",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 4
+      "position": 11
     }
   ],
   "top_country": {
     "country": "ind",
-    "clicks": 4,
-    "impressions": 579,
-    "ctr": 0.69,
-    "position": 40.8
+    "clicks": 5,
+    "impressions": 631,
+    "ctr": 0.79,
+    "position": 41.2
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -377,7 +377,7 @@
       {
         "query": "kangans",
         "clicks": 0,
-        "impressions": 33,
+        "impressions": 38,
         "ctr": 0,
         "position": 8.5
       }
@@ -385,24 +385,24 @@
     "country_gaps": [
       {
         "country": "ind",
-        "clicks": 4,
-        "impressions": 579,
-        "ctr": 0.69,
-        "position": 40.8
+        "clicks": 5,
+        "impressions": 631,
+        "ctr": 0.79,
+        "position": 41.2
       }
     ],
     "top_country": {
       "country": "ind",
-      "clicks": 4,
-      "impressions": 579,
-      "ctr": 0.69,
-      "position": 40.8
+      "clicks": 5,
+      "impressions": 631,
+      "ctr": 0.79,
+      "position": 41.2
     }
   },
   "content_plan": [
     {
       "target": "kangans",
-      "why": "ranks #8.5 with 33 impressions/mo",
+      "why": "ranks #8.5 with 38 impressions/mo",
       "action": "Create or expand a page that directly answers this query \u2014 a question-style H2 + a 40-60 word direct answer + supporting detail. You're one page from page-one."
     }
   ],
@@ -413,14 +413,16 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 1,
+    "requested": 2,
     "inspected": 1,
-    "errors": 0,
-    "error_sample": null,
-    "error_samples": [],
+    "errors": 1,
+    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_samples": [
+      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+    ],
     "buckets": {
       "indexed": [
-        "https://artificialjewellers.com"
+        "https://artificialjewellers.com/"
       ],
       "fix": [],
       "junk-not-indexed": [],
@@ -431,6 +433,6 @@
       "ok-skip": [],
       "review": []
     },
-    "urls_found": 1
+    "urls_found": 2
   }
 }
