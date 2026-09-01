@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "brand": "MYNA",
+    "domain": "artificialjewellers.com",
+    "url": "https://artificialjewellers.com",
+    "utc": "2026-09-01T08:48:47+00:00"
+  },
+  "myna_auditor": {
+    "_error": "Could not fetch https://artificialjewellers.com (402)"
+  },
+  "geo_audit": {
+    "url": "https://artificialjewellers.com",
+    "timestamp": "2026-09-01T08:48:48.149663+00:00",
+    "score": 0,
+    "band": "critical",
+    "error": "HTTP 402",
+    "checks": {
+      "robots_txt": {
+        "score": 0,
+        "max": 18,
+        "passed": false,
+        "details": {
+          "found": false,
+          "bots_allowed": [],
+          "bots_missing": [],
+          "bots_blocked": [],
+          "bots_partial": [],
+          "citation_bots_ok": false,
+          "crawl_delay": null,
+          "citation_bots_explicit": false
+        }
+      },
+      "llms_txt": {
+        "score": 0,
+        "max": 18,
+        "passed": false,
+        "details": {
+          "found": false,
+          "has_h1": false,
+          "has_description": false,
+          "has_sections": false,
+          "has_links": false,
+          "word_count": 0,
+          "has_full": false,
+          "sections_count": 0,
+          "links_count": 0,
+          "has_blockquote": false,
+          "has_optional_section": false,
+          "companion_files_hint": false,
+          "validation_warnings": []
+        }
+      },
+      "schema_jsonld": {
+        "score": 0,
+        "max": 16,
+        "passed": false,
+        "details": {
+          "has_website": false,
+          "has_webapp": false,
+          "has_faq": false,
+          "found_types": []
+        }
+      },
+      "meta_tags": {
+        "score": 0,
+        "max": 14,
+        "passed": false,
+        "details": {
+          "has_title": false,
+          "has_description": false,
+          "has_canonical": false,
+          "has_og_title": false,
+          "has_og_description": false,
+          "has_og_image": false,
+          "title_text": "",
+          "description_text": "",
+          "description_length": 0,
+          "title_length": 0,
+          "canonical_url": "",
+          "x_robots_noindex": false,
+          "x_robots_tag": "",
+          "has_noai": false,
+          "noai_value": ""
+        }
+      },
+      "content": {
+        "score": 0,
+        "max": 12,
+        "passed": false,
+        "details": {
+          "has_h1": false,
+          "heading_count": 0,
+          "has_numbers": false,
+          "has_links": false,
+          "word_count": 0,
+          "h1_text": "",
+          "numbers_count": 0,
+          "external_links_count": 0,
+          "has_heading_hierarchy": false,
+          "has_lists_or_tables": false,
+          "has_front_loading": false
+        }
+      },
+      "signals": {
+        "score": 0,
+        "max": 6,
+        "passed": false,
+        "details": {
+          "has_lang": false,
+          "lang_value": "",
+          "has_rss": false,
+          "rss_url": "",
+          "has_freshness": false,
+          "freshness_date": ""
+        }
+      },
+      "ai_discovery": {
+        "score": 0,
+        "max": 6,
+        "passed": false,
+        "details": {
+          "has_well_known_ai": false,
+          "has_summary": false,
+          "has_faq": false,
+          "has_service": false,
+          "summary_valid": false,
+          "faq_count": 0,
+          "endpoints_found": 0,
+          "has_webmcp_declaration": false,
+          "webmcp_declared_tool_count": 0
+        }
+      },
+      "brand_entity": {
+        "score": 0,
+        "max": 10,
+        "passed": false,
+        "details": {
+          "brand_name_consistent": false,
+          "names_found": [],
+          "primary_name": null,
+          "schema_desc_matches_meta": false,
+          "kg_pillar_count": 0,
+          "kg_pillar_urls": [],
+          "has_wikipedia": false,
+          "has_wikidata": false,
+          "has_linkedin": false,
+          "has_crunchbase": false,
+          "has_about_link": false,
+          "has_contact_info": false,
+          "has_geo_schema": false,
+          "has_hreflang": false,
+          "hreflang_count": 0,
+          "faq_depth": 0,
+          "has_recent_articles": false
+        }
+      }
+    },
+    "score_breakdown": {},
+    "recommendations": [
+      "Site returned HTTP 402. Check for Cloudflare/WAF blocks or server errors."
+    ],
+    "trust_stack": {
+      "checked": false,
+      "technical": {
+        "name": "technical",
+        "label": "Technical Trust",
+        "score": 0,
+        "max_score": 5,
+        "signals_found": [],
+        "signals_missing": [],
+        "details": {}
+      },
+      "identity": {
+        "name": "identity",
+        "label": "Identity Trust",
+        "score": 0,
+        "max_score": 5,
+        "signals_found": [],
+        "signals_missing": [],
+        "details": {}
+      },
+      "social": {
+        "name": "social",
+        "label": "Social Trust",
+        "score": 0,
+        "max_score": 5,
+        "signals_found": [],
+        "signals_missing": [],
+        "details": {}
+      },
+      "academic": {
+        "name": "academic",
+        "label": "Academic Trust",
+        "score": 0,
+        "max_score": 5,
+        "signals_found": [],
+        "signals_missing": [],
+        "details": {}
+      },
+      "consistency": {
+        "name": "consistency",
+        "label": "Consistency Trust",
+        "score": 0,
+        "max_score": 5,
+        "signals_found": [],
+        "signals_missing": [],
+        "details": {}
+      },
+      "composite_score": 0,
+      "grade": "F",
+      "trust_level": "low"
+    },
+    "http_status": 402,
+    "page_size": 0,
+    "audit_duration_ms": 207
+  },
+  "geo_citations": {
+    "checked": true,
+    "skipped_reason": null,
+    "brand": "MYNA",
+    "domain": "artificialjewellers.com",
+    "entries": [
+      {
+        "query": "What are the best affordable Indian fashion jewellery brands to buy online?",
+        "platform": "perplexity",
+        "model": "sonar",
+        "brand_mentioned": false,
+        "domain_cited": false,
+        "cited_sources": [
+          "https://www.beautyepic.com/web-stories/affordable-jewellery-brands-available-in-india/",
+          "https://www.idiva.com/fashion/buys/indian-instagram-shops-for-everyday-minimalist-jewellery/18018572",
+          "https://www.eternz.com/blog/affordable-jewellery-brands-to-explore-in-india/",
+          "https://zokera.com/blog/top-10-jewellery-brands-in-india-affordable-jewellery-brands",
+          "https://lbb.in/all/top-indian-jewellery-brands/",
+          "https://shopisthan.in/indian-jewellery-brands-for-all-budgets-and-styles/",
+          "https://ourtalk.in/best-affordable-jewellery-brands-in-india/",
+          "https://lbb.in/delhi/homegrown-indian-jewellery-brands-online/",
+          "https://www.reddit.com/r/IndianFashionAddicts/comments/ufxvsd/whats_your_favourite_websiteig_store_for_cute_but/",
+          "https://rhjewellers.in/best-websites-for-fashion-accessories-in-india",
+          "https://www.adorebypriyanka.com/",
+          "https://touch925.com/blogs/brand-insight/top-10-indian-jewellery-brands",
+          "https://www.trymintly.com/blogs/top-10-brands-to-buy-indian-jewellery-online-for-women",
+          "https://www.tarinika.com/",
+          "https://www.eternz.com/blog/best-jewellery-brands-in-india-to-shop-online-in-2026/",
+          "https://www.chandnisehgal.com/blog/11-contemporary-indian-jewellery-labels",
+          "https://www.andaazfashion.com/jewellery",
+          "https://www.reddit.com/r/TwoXIndia/comments/11bcx0x/ladies_i_want_some_budget_everyday_jewellery/",
+          "https://www.jaipurrose.com/",
+          "https://www.viranijewelers.com/"
+        ],
+        "snippet": "If you want **affordable Indian fashion jewellery** online, the strongest budget-friendly picks from the results are **Voylla, YouBella, Salty, You Jewelry, Palmonas, Estele, Clara, Klissaa, and Galli",
+        "error": null
+      },
+      {
+        "query": "Does gold-plated fashion jewellery tarnish or turn skin green?",
+        "platform": "perplexity",
+        "model": "sonar",
+        "brand_mentioned": false,
+        "domain_cited": false,
+        "cited_sources": [
+          "https://goldsell.co.uk/does-gold-plated-tarnish/",
+          "https://nelsoncoleman.com/blogs/blog/does-gold-plated-jewelry-tarnish",
+          "https://ajluxe.com/blogs/jewelry-guide/does-gold-plated-jewelry-tarnish",
+          "https://www.fejn.com/en/blogs/tips/tarnished-gold-jewelry",
+          "https://harlembling.com/blogs/news/blog-how-to-clean-goldplated-jewelry-when-it-tarnishes",
+          "https://jewelrylab.co/blogs/jewelry/does-gold-plated-jewelry-tarnish",
+          "https://artizanjoyeria.com/blogs/materials/does-gold-plated-jewelry-tarnish",
+          "https://brite.co/blog/how-long-does-gold-plated-jewelry-last/",
+          "https://www.reddit.com/r/jewelry/comments/14xhgen/how_does_gold_plated_jewelry_not_tarnish/",
+          "https://www.sj-jewellery.com/blogs/does-18k-gold-plated-tarnish",
+          "https://www.byrdie.com/how-to-keep-gold-plated-jewelry-from-tarnishing-5196986",
+          "https://www.reddit.com/r/jewelry/comments/1gxrvik/skeptical_of_claims_that_gold_plated_doesnt/"
+        ],
+        "snippet": "Yes\u2014**gold-plated fashion jewellery can tarnish**, and it can also **turn skin green** if the base metal underneath is exposed and reacts with sweat, moisture, or skin acids.[1][2][6]\n\n- **Why it tarn",
+        "error": null
+      },
+      {
+        "query": "Is zinc alloy jewellery good quality and worth buying?",
+        "platform": "perplexity",
+        "model": "sonar",
+        "brand_mentioned": false,
+        "domain_cited": false,
+        "cited_sources": [
+          "https://www.honhojewelry.com/zinc-alloy-in-jewelry-guide/",
+          "https://www.xinxdao.com/blog/how-to-tell-if-zinc-alloy-craft-jewelry-is-of-good-quality-599746.html",
+          "https://www.creativefabrica.com/the-artistry/jewelry/stainless-steel-jewelry-vs-sterling-silver-vs-zinc-alloy/",
+          "https://scienceinsights.org/is-zinc-alloy-jewelry-safe-skin-risks-explained/",
+          "https://jewelhub.co.uk/blogs/jewellery-materials-care/what-is-zinc-alloy-is-alloy-good-for-jewellery-why-is-it-used-in-jewellery",
+          "https://blog.goldsupplier.com/en-zinc-alloy-jewelry/",
+          "https://www.jewelerstoystore.com/Zinc-p/a44-2.htm",
+          "https://www.epicsourcing.ca/post/is-zinc-alloy-safe-what-buyers-need-to-know-2026",
+          "https://www.top-jewelry.net/professional-zinc-alloy-manufacturer/",
+          "https://www.okaaccessoriescn.com/Zinc-Alloy-vs-Stainless-Steel-Jewelry--Which-Is-Better-for-Your-Brand-_277.html",
+          "https://scienceinsights.org/is-zinc-jewelry-safe-lead-nickel-and-skin-risks/",
+          "https://www.belmontmetals.com/jewelry-casting-advantages-of-tin-alloys-vs-zinc-alloys/",
+          "https://www.reddit.com/r/jewelrymaking/comments/16q7xdw/is_zinc_alloy_ok_for_jewelry_making_i_love/",
+          "https://www.customfashionjewels.com/alloy-jewelry-accessory/",
+          "https://www.customfashionjewels.com/how-does-zinc-alloy-jewelry-compare-to-other-materials/",
+          "https://www.alibaba.com/product-insights/safe-zinc-alloy-jewelry.html",
+          "https://www.yunovalifestyle.com/stainless-steel-vs-brass-vs-zinc-which-metal-is-best-for-fashion-jewelry/",
+          "https://www.alibaba.com/product-insights/high-quality-zinc-alloy-jewelry.html",
+          "https://www.reddit.com/r/jewelry/comments/rgo2te/which_jewelry_metals_should_be_avoided_do_copper/",
+          "https://frigusjewelry.com/blogs/news/does-zinc-alloy-tarnish"
+        ],
+        "snippet": "**Yes, zinc alloy jewellery can be good quality and worth buying\u2014but only if it\u2019s well made and properly finished.** It\u2019s usually best for **affordable fashion pieces** rather than long-term heirloom ",
+        "error": null
+      },
+      {
+        "query": "Which Indian jewellery brands offer anti-tarnish gold-plated pieces?",
+        "platform": "perplexity",
+        "model": "sonar",
+        "brand_mentioned": false,
+        "domain_cited": false,
+        "cited_sources": [
+          "https://nuyug.com/blogs/news/best-tarnish-free-gold-plated-brands-india?constraint=anti-tarnish-jewellery-brands",
+          "https://www.vyshnavam.in/",
+          "https://www.zaisha.co.in/",
+          "https://www.cosmopolitan.in/fashion/features/story/anti-tarnish-waterproof-jewellery-brands-every-woman-needs-1219552-2025-05-27",
+          "https://glowara.in/blog/best-non-tarnish-jewelry-brands-india-2026",
+          "https://www.milikajewels.in/post/top-10-non-tarnish-jewellery-brands-in-india-2025-edition",
+          "https://nuyug.com/blogs/news/anti-tarnish-jewellery-india-skin-safe-brands-2026",
+          "https://lbb.in/delhi/buy-non-tarnish-jewellery-online/",
+          "https://mansi.shop/",
+          "https://about.me/tvayi",
+          "https://www.tvayi.com/blogs/demi-fine-jewelry/demi-fine-jewellery-brands-in-india",
+          "https://www.tvayi.com/blogs/demi-fine-jewelry/best-gold-plated-jewellery-brands",
+          "https://zarivajewels.in/blogs/zariva-journal/best-anti-tarnish-jewellery-brands-in-india",
+          "https://www.thegoldentouch.in/",
+          "https://www.tvayi.com/blogs/demi-fine-jewelry/top-demi-fine-jewellery-brands-india",
+          "https://www.elantejewels.in/",
+          "https://www.reddit.com/r/IndianBeautyDeals/comments/1eq7zaj/looking_for_tarnish_free_jewellery/",
+          "https://www.tvayi.com/",
+          "https://www.reddit.com/r/IndianFashionAddicts/comments/rxllng/anti_tarnish_jewelry_brand_recommendationsreviews/",
+          "https://bysimran.com/"
+        ],
+        "snippet": "Several Indian jewellery brands **do offer anti-tarnish gold-plated pieces**, though the exact construction varies by brand. Commonly cited options include **Nuyug**, **GIVA**, **Palmonas**, **Zaisha*",
+        "error": null
+      },
+      {
+        "query": "Recommend a trustworthy online fashion jewellery brand from India.",
+        "platform": "perplexity",
+        "model": "sonar",
+        "brand_mentioned": false,
+        "domain_cited": false,
+        "cited_sources": [
+          "https://www.adorebypriyanka.com/",
+          "https://www.trymintly.com/blogs/list-of-top-10-online-jewellery-brands-in-india",
+          "https://www.reddit.com/r/IndianFashionAddicts/comments/1fm49f6/trustworthy_insta_stores_for_jewellery/",
+          "https://www.tanishq.co.in/",
+          "https://www.misshighness.com/blogs/blogs-by-misshighness/top-10-jewellery-brands-in-india-for-online-jewellery-shopping",
+          "https://shoshaa.co.in/",
+          "https://shepreneurs.in/top-jewellery-sites-in-india/",
+          "https://lbb.in/delhi/homegrown-indian-jewellery-brands-online/",
+          "https://www.eternz.com/blog/best-jewellery-brands-in-india-to-shop-online-in-2026/",
+          "https://lbb.in/all/top-indian-jewellery-brands/",
+          "https://caleidoscope.in/alternative-lifestyle/top-indian-jewellery-brands",
+          "https://shopisthan.in/indian-jewellery-brands-for-all-budgets-and-styles/",
+          "https://www.voylla.com/",
+          "https://indianecommerceawards.com/top-jewelry-e-commerce-website-in-india/",
+          "https://www.reddit.com/r/BollywoodFashion/comments/fmsyb6/best_indian_fashion_jewelry_brands/",
+          "https://www.spocket.co/statistics/top-jewelry-brands-in-india",
+          "https://www.trymintly.com/blogs/top-10-brands-to-buy-indian-jewellery-online-for-women",
+          "https://brandzmagazine.com/top-10-jewellery-brands-in-india/",
+          "https://www.tarinika.com/",
+          "https://www.forbes.com/sites/forbes-personal-shopper/article/best-online-jewelry-store/"
+        ],
+        "snippet": "For a **trustworthy online fashion jewellery brand from India**, I\u2019d recommend **Voylla**. It is described as a leading fashion jewellery destination with a large digital presence and **150+ stores ac",
+        "error": null
+      }
+    ],
+    "queries_run": 5,
+    "brand_mention_rate": 0.0,
+    "domain_citation_rate": 0.0,
+    "top_cited_domains": [
+      [
+        "reddit.com",
+        10
+      ],
+      [
+        "lbb.in",
+        5
+      ],
+      [
+        "tvayi.com",
+        4
+      ],
+      [
+        "eternz.com",
+        3
+      ],
+      [
+        "trymintly.com",
+        3
+      ]
+    ],
+    "verdict": "invisible"
+  },
+  "extra_tools": {}
+}
