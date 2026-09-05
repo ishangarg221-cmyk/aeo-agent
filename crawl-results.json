@@ -3,7 +3,7 @@
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
   "mode": "daily",
-  "generated": "04 Sep 2026, 08:07 UTC",
+  "generated": "05 Sep 2026, 07:47 UTC",
   "sitemap_total": 1,
   "audited": 2,
   "avg_score": null,
@@ -33,16 +33,16 @@
   "sitewide_issues": [],
   "pages": [
     {
-      "url": "https://artificialjewellers.com/collections/all",
-      "score": null,
-      "error": "402",
-      "type": "collection"
-    },
-    {
       "url": "https://artificialjewellers.com/",
       "score": null,
       "error": "402",
       "type": "home"
+    },
+    {
+      "url": "https://artificialjewellers.com/collections/all",
+      "score": null,
+      "error": "402",
+      "type": "collection"
     }
   ]
 }

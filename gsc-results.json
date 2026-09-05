@@ -3,39 +3,32 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "04 Sep 2026, 08:07 UTC",
+  "generated": "05 Sep 2026, 07:47 UTC",
   "totals": {
-    "clicks": 8,
-    "impressions": 902
+    "clicks": 7,
+    "impressions": 913
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 5,
-      "impressions": 133,
-      "ctr": 3.76,
-      "position": 7.6
-    },
-    {
-      "page": "https://artificialjewellers.com/collections/bestsellers",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 5
+      "impressions": 132,
+      "ctr": 3.79,
+      "position": 7.9
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 76,
-      "ctr": 1.32,
-      "position": 42.3
+      "impressions": 78,
+      "ctr": 1.28,
+      "position": 42.2
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
       "clicks": 1,
-      "impressions": 5,
-      "ctr": 20.0,
-      "position": 14.2
+      "impressions": 4,
+      "ctr": 25.0,
+      "position": 8.2
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/jewellery-and-skin-choosing-pieces-that-love-you-back",
@@ -61,9 +54,9 @@
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 17.7
+      "position": 14.1
     },
     {
       "page": "https://artificialjewellers.com/collections",
@@ -73,18 +66,25 @@
       "position": 6.8
     },
     {
+      "page": "https://artificialjewellers.com/collections/bestsellers",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 194,
+      "impressions": 192,
       "ctr": 0,
-      "position": 65.7
+      "position": 65.8
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 166,
+      "impressions": 176,
       "ctr": 0,
-      "position": 48.8
+      "position": 48.3
     },
     {
       "page": "https://artificialjewellers.com/collections/jewellery-sets",
@@ -96,9 +96,9 @@
     {
       "page": "https://artificialjewellers.com/collections/kangans",
       "clicks": 0,
-      "impressions": 47,
+      "impressions": 50,
       "ctr": 0,
-      "position": 8.8
+      "position": 8.9
     },
     {
       "page": "https://artificialjewellers.com/collections/kundan",
@@ -112,7 +112,7 @@
       "clicks": 0,
       "impressions": 58,
       "ctr": 0,
-      "position": 49.0
+      "position": 49.4
     }
   ],
   "top_queries": [
@@ -133,7 +133,7 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 34,
+      "impressions": 35,
       "ctr": 0,
       "position": 48.5
     },
@@ -147,23 +147,23 @@
     {
       "query": "artificial bangles for women",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
       "position": 51
     },
     {
       "query": "artificial bangles online shopping",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 57.5
+      "position": 58.2
     },
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 30,
       "ctr": 0,
-      "position": 65.2
+      "position": 64.9
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
@@ -196,16 +196,16 @@
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 52
+      "position": 52.2
     },
     {
       "query": "artificial earrings",
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 34,
       "ctr": 0,
-      "position": 47.9
+      "position": 48
     },
     {
       "query": "artificial earrings design",
@@ -243,27 +243,27 @@
       "position": 52.3
     },
     {
-      "query": "artificial jewellery bangles",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 31
-    },
-    {
       "query": "artificial jewellery earrings",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
       "position": 53
+    },
+    {
+      "query": "artificial jewellery for bridal",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 61.8
     }
   ],
   "countries": [
     {
       "country": "ind",
-      "clicks": 6,
-      "impressions": 706,
-      "ctr": 0.85,
-      "position": 41.8
+      "clicks": 5,
+      "impressions": 719,
+      "ctr": 0.7,
+      "position": 41.7
     },
     {
       "country": "aut",
@@ -315,13 +315,6 @@
       "position": 9.2
     },
     {
-      "country": "dnk",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
-    },
-    {
       "country": "esp",
       "clicks": 0,
       "impressions": 2,
@@ -338,9 +331,9 @@
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 14,
       "ctr": 0,
-      "position": 24.5
+      "position": 20.3
     },
     {
       "country": "gha",
@@ -362,48 +355,68 @@
       "impressions": 1,
       "ctr": 0,
       "position": 4
+    },
+    {
+      "country": "idn",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 52
     }
   ],
   "top_country": {
     "country": "ind",
-    "clicks": 6,
-    "impressions": 706,
-    "ctr": 0.85,
-    "position": 41.8
+    "clicks": 5,
+    "impressions": 719,
+    "ctr": 0.7,
+    "position": 41.7
   },
   "opportunities": {
-    "low_ctr_pages": [],
+    "low_ctr_pages": [
+      {
+        "page": "https://artificialjewellers.com/collections/kangans",
+        "clicks": 0,
+        "impressions": 50,
+        "ctr": 0,
+        "position": 8.9
+      }
+    ],
     "striking_distance": [
       {
         "query": "kangans",
         "clicks": 0,
-        "impressions": 45,
+        "impressions": 48,
         "ctr": 0,
-        "position": 8.7
+        "position": 8.8
       }
     ],
     "country_gaps": [
       {
         "country": "ind",
-        "clicks": 6,
-        "impressions": 706,
-        "ctr": 0.85,
-        "position": 41.8
+        "clicks": 5,
+        "impressions": 719,
+        "ctr": 0.7,
+        "position": 41.7
       }
     ],
     "top_country": {
       "country": "ind",
-      "clicks": 6,
-      "impressions": 706,
-      "ctr": 0.85,
-      "position": 41.8
+      "clicks": 5,
+      "impressions": 719,
+      "ctr": 0.7,
+      "position": 41.7
     }
   },
   "content_plan": [
     {
       "target": "kangans",
-      "why": "ranks #8.7 with 45 impressions/mo",
+      "why": "ranks #8.8 with 48 impressions/mo",
       "action": "Create or expand a page that directly answers this query \u2014 a question-style H2 + a 40-60 word direct answer + supporting detail. You're one page from page-one."
+    },
+    {
+      "target": "/collections/kangans",
+      "why": "50 impressions but only 0% CTR",
+      "action": "Rewrite the title tag + meta description to match intent and add a hook. Impressions are there; the click isn't."
     }
   ],
   "sitemap_summary": {
