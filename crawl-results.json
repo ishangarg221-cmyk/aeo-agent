@@ -2,10 +2,10 @@
   "brand": "MYNA",
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
-  "mode": "daily",
-  "generated": "05 Sep 2026, 07:47 UTC",
+  "mode": "weekly",
+  "generated": "06 Sep 2026, 08:01 UTC",
   "sitemap_total": 1,
-  "audited": 2,
+  "audited": 1,
   "avg_score": null,
   "domain_sections": {
     "Crawlability (AI bots)": {
@@ -33,16 +33,10 @@
   "sitewide_issues": [],
   "pages": [
     {
-      "url": "https://artificialjewellers.com/",
+      "url": "https://artificialjewellers.com",
       "score": null,
       "error": "402",
       "type": "home"
-    },
-    {
-      "url": "https://artificialjewellers.com/collections/all",
-      "score": null,
-      "error": "402",
-      "type": "collection"
     }
   ]
 }
