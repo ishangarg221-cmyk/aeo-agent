@@ -3,25 +3,25 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "06 Sep 2026, 08:01 UTC",
+  "generated": "07 Sep 2026, 08:32 UTC",
   "totals": {
     "clicks": 7,
-    "impressions": 955
+    "impressions": 958
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 5,
-      "impressions": 135,
-      "ctr": 3.7,
-      "position": 8.4
+      "impressions": 129,
+      "ctr": 3.88,
+      "position": 8.2
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 86,
-      "ctr": 1.16,
-      "position": 41.6
+      "impressions": 90,
+      "ctr": 1.11,
+      "position": 41.0
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
@@ -68,7 +68,7 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 199,
+      "impressions": 198,
       "ctr": 0,
       "position": 65.8
     },
@@ -89,23 +89,23 @@
     {
       "page": "https://artificialjewellers.com/collections/kangans",
       "clicks": 0,
-      "impressions": 51,
+      "impressions": 56,
       "ctr": 0,
-      "position": 8.9
+      "position": 8.7
     },
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 33,
       "ctr": 0,
-      "position": 62
+      "position": 62.0
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 60,
+      "impressions": 56,
       "ctr": 0,
-      "position": 49.2
+      "position": 50.1
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles-1",
@@ -133,9 +133,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 37,
       "ctr": 0,
-      "position": 48.4
+      "position": 48.2
     },
     {
       "query": "artificial bangles for daily use",
@@ -147,16 +147,16 @@
     {
       "query": "artificial bangles for women",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
       "position": 51
     },
     {
       "query": "artificial bangles online shopping",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 58.9
+      "position": 59.5
     },
     {
       "query": "artificial bridal jewellery",
@@ -263,7 +263,7 @@
       "clicks": 5,
       "impressions": 757,
       "ctr": 0.66,
-      "position": 41.8
+      "position": 41.7
     },
     {
       "country": "aut",
@@ -289,9 +289,9 @@
     {
       "country": "aus",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 6
     },
     {
       "country": "can",
@@ -310,9 +310,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 12.5
+      "position": 19.1
     },
     {
       "country": "esp",
@@ -369,25 +369,25 @@
     "clicks": 5,
     "impressions": 757,
     "ctr": 0.66,
-    "position": 41.8
+    "position": 41.7
   },
   "opportunities": {
     "low_ctr_pages": [
       {
         "page": "https://artificialjewellers.com/collections/kangans",
         "clicks": 0,
-        "impressions": 51,
+        "impressions": 56,
         "ctr": 0,
-        "position": 8.9
+        "position": 8.7
       }
     ],
     "striking_distance": [
       {
         "query": "kangans",
         "clicks": 0,
-        "impressions": 49,
+        "impressions": 53,
         "ctr": 0,
-        "position": 8.7
+        "position": 8.6
       }
     ],
     "country_gaps": [
@@ -396,7 +396,7 @@
         "clicks": 5,
         "impressions": 757,
         "ctr": 0.66,
-        "position": 41.8
+        "position": 41.7
       }
     ],
     "top_country": {
@@ -404,18 +404,18 @@
       "clicks": 5,
       "impressions": 757,
       "ctr": 0.66,
-      "position": 41.8
+      "position": 41.7
     }
   },
   "content_plan": [
     {
       "target": "kangans",
-      "why": "ranks #8.7 with 49 impressions/mo",
+      "why": "ranks #8.6 with 53 impressions/mo",
       "action": "Create or expand a page that directly answers this query \u2014 a question-style H2 + a 40-60 word direct answer + supporting detail. You're one page from page-one."
     },
     {
       "target": "/collections/kangans",
-      "why": "51 impressions but only 0% CTR",
+      "why": "56 impressions but only 0% CTR",
       "action": "Rewrite the title tag + meta description to match intent and add a hook. Impressions are there; the click isn't."
     }
   ],
@@ -426,13 +426,17 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 1,
+    "requested": 2,
     "inspected": 1,
-    "errors": 0,
-    "error_sample": null,
-    "error_samples": [],
+    "errors": 1,
+    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_samples": [
+      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+    ],
     "buckets": {
-      "indexed": [],
+      "indexed": [
+        "https://artificialjewellers.com/collections/all"
+      ],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
@@ -440,14 +444,8 @@
       "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": [
-        {
-          "url": "https://artificialjewellers.com",
-          "state": "Indexed, though blocked by robots.txt",
-          "advice": "Review manually: Indexed, though blocked by robots.txt"
-        }
-      ]
+      "review": []
     },
-    "urls_found": 1
+    "urls_found": 2
   }
 }
