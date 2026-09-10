@@ -3,25 +3,25 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "09 Sep 2026, 08:18 UTC",
+  "generated": "10 Sep 2026, 08:18 UTC",
   "totals": {
-    "clicks": 7,
-    "impressions": 919
+    "clicks": 8,
+    "impressions": 944
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 5,
-      "impressions": 119,
-      "ctr": 4.2,
-      "position": 8.7
+      "impressions": 120,
+      "ctr": 4.17,
+      "position": 9.1
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 90,
-      "ctr": 1.11,
-      "position": 40.9
+      "impressions": 93,
+      "ctr": 1.08,
+      "position": 40.6
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
@@ -29,6 +29,13 @@
       "impressions": 2,
       "ctr": 50.0,
       "position": 1
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/terms-of-service",
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 20.0,
+      "position": 6
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/jewellery-and-skin-choosing-pieces-that-love-you-back",
@@ -73,18 +80,32 @@
       "position": 3
     },
     {
+      "page": "https://artificialjewellers.com/collections/all",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://artificialjewellers.com/collections/bracelets-sets",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 172,
+      "impressions": 170,
       "ctr": 0,
-      "position": 65.9
+      "position": 66.0
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 191,
+      "impressions": 190,
       "ctr": 0,
-      "position": 48.7
+      "position": 48.6
     },
     {
       "page": "https://artificialjewellers.com/collections/jewellery-sets",
@@ -92,27 +113,6 @@
       "impressions": 3,
       "ctr": 0,
       "position": 5.3
-    },
-    {
-      "page": "https://artificialjewellers.com/collections/kangans",
-      "clicks": 0,
-      "impressions": 57,
-      "ctr": 0,
-      "position": 8.7
-    },
-    {
-      "page": "https://artificialjewellers.com/collections/kundan",
-      "clicks": 0,
-      "impressions": 34,
-      "ctr": 0,
-      "position": 62.0
-    },
-    {
-      "page": "https://artificialjewellers.com/collections/rings-bangles",
-      "clicks": 0,
-      "impressions": 50,
-      "ctr": 0,
-      "position": 49.8
     }
   ],
   "top_queries": [
@@ -147,9 +147,16 @@
     {
       "query": "artificial bangles online shopping",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 10,
       "ctr": 0,
-      "position": 60.2
+      "position": 58.7
+    },
+    {
+      "query": "artificial bracelets",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
     },
     {
       "query": "artificial bridal jewellery",
@@ -161,9 +168,9 @@
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 24,
       "ctr": 0,
-      "position": 56.7
+      "position": 56.9
     },
     {
       "query": "artificial bridal jewellery sets with price",
@@ -231,9 +238,9 @@
     {
       "query": "artificial earrings online",
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 24,
       "ctr": 0,
-      "position": 52.3
+      "position": 52.2
     },
     {
       "query": "artificial jewellery",
@@ -248,22 +255,15 @@
       "impressions": 3,
       "ctr": 0,
       "position": 53
-    },
-    {
-      "query": "artificial jewellery for bridal",
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0,
-      "position": 61
     }
   ],
   "countries": [
     {
       "country": "ind",
-      "clicks": 5,
-      "impressions": 722,
-      "ctr": 0.69,
-      "position": 41.4
+      "clicks": 6,
+      "impressions": 727,
+      "ctr": 0.83,
+      "position": 41.2
     },
     {
       "country": "aut",
@@ -310,16 +310,16 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 13,
       "ctr": 0,
-      "position": 27.2
+      "position": 32.8
     },
     {
       "country": "esp",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 31.7
+      "position": 38.8
     },
     {
       "country": "fin",
@@ -331,9 +331,9 @@
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 17,
       "ctr": 0,
-      "position": 17.9
+      "position": 36.1
     },
     {
       "country": "gha",
@@ -366,10 +366,10 @@
   ],
   "top_country": {
     "country": "ind",
-    "clicks": 5,
-    "impressions": 722,
-    "ctr": 0.69,
-    "position": 41.4
+    "clicks": 6,
+    "impressions": 727,
+    "ctr": 0.83,
+    "position": 41.2
   },
   "opportunities": {
     "low_ctr_pages": [
@@ -393,18 +393,18 @@
     "country_gaps": [
       {
         "country": "ind",
-        "clicks": 5,
-        "impressions": 722,
-        "ctr": 0.69,
-        "position": 41.4
+        "clicks": 6,
+        "impressions": 727,
+        "ctr": 0.83,
+        "position": 41.2
       }
     ],
     "top_country": {
       "country": "ind",
-      "clicks": 5,
-      "impressions": 722,
-      "ctr": 0.69,
-      "position": 41.4
+      "clicks": 6,
+      "impressions": 727,
+      "ctr": 0.83,
+      "position": 41.2
     }
   },
   "content_plan": [
@@ -429,14 +429,12 @@
     "requested": 2,
     "inspected": 1,
     "errors": 1,
-    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_sample": "The read operation timed out",
     "error_samples": [
-      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+      "The read operation timed out"
     ],
     "buckets": {
-      "indexed": [
-        "https://artificialjewellers.com/collections/all"
-      ],
+      "indexed": [],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
@@ -444,7 +442,13 @@
       "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": []
+      "review": [
+        {
+          "url": "https://artificialjewellers.com/",
+          "state": "Indexed, though blocked by robots.txt",
+          "advice": "Review manually: Indexed, though blocked by robots.txt"
+        }
+      ]
     },
     "urls_found": 2
   }
