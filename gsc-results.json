@@ -3,25 +3,25 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "12 Sep 2026, 08:03 UTC",
+  "generated": "13 Sep 2026, 08:27 UTC",
   "totals": {
     "clicks": 6,
-    "impressions": 997
+    "impressions": 1016
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 3,
-      "impressions": 113,
-      "ctr": 2.65,
-      "position": 9.6
+      "impressions": 112,
+      "ctr": 2.68,
+      "position": 10.0
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 1,
-      "impressions": 98,
-      "ctr": 1.02,
-      "position": 40.2
+      "impressions": 96,
+      "ctr": 1.04,
+      "position": 40.3
     },
     {
       "page": "https://artificialjewellers.com/pages/returns-exchanges",
@@ -36,13 +36,6 @@
       "impressions": 5,
       "ctr": 20.0,
       "position": 6
-    },
-    {
-      "page": "https://artificialjewellers.com/blogs/notes-from-alankar/jewellery-and-skin-choosing-pieces-that-love-you-back",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/the-complete-bridal-jewellery-guide-for-every-ceremony",
@@ -82,14 +75,14 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 161,
+      "impressions": 154,
       "ctr": 0,
-      "position": 66.0
+      "position": 66.2
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 216,
+      "impressions": 217,
       "ctr": 0,
       "position": 50.8
     },
@@ -110,18 +103,25 @@
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 36,
+      "impressions": 37,
       "ctr": 0,
-      "position": 62.2
+      "position": 62.0
+    },
+    {
+      "page": "https://artificialjewellers.com/collections/rings-bangles",
+      "clicks": 0,
+      "impressions": 46,
+      "ctr": 0,
+      "position": 48.0
     }
   ],
   "top_queries": [
     {
       "query": "myna jewellery",
       "clicks": 2,
-      "impressions": 18,
-      "ctr": 11.11,
-      "position": 2.6
+      "impressions": 17,
+      "ctr": 11.76,
+      "position": 2.4
     },
     {
       "query": "3 piece bridal jewelry sets",
@@ -133,9 +133,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 37,
+      "impressions": 38,
       "ctr": 0,
-      "position": 47.6
+      "position": 47.7
     },
     {
       "query": "artificial bangles for women",
@@ -154,9 +154,9 @@
     {
       "query": "artificial bangles online shopping",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 56.2
+      "position": 55.4
     },
     {
       "query": "artificial bangles set",
@@ -175,16 +175,16 @@
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 24,
       "ctr": 0,
-      "position": 64.7
+      "position": 64.9
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 21,
       "ctr": 0,
-      "position": 57.2
+      "position": 57.4
     },
     {
       "query": "artificial bridal jewellery sets with price",
@@ -254,16 +254,16 @@
       "clicks": 0,
       "impressions": 22,
       "ctr": 0,
-      "position": 52.0
+      "position": 52.6
     }
   ],
   "countries": [
     {
       "country": "ind",
       "clicks": 4,
-      "impressions": 706,
+      "impressions": 698,
       "ctr": 0.57,
-      "position": 41.2
+      "position": 41.3
     },
     {
       "country": "aut",
@@ -275,9 +275,9 @@
     {
       "country": "pak",
       "clicks": 1,
-      "impressions": 5,
-      "ctr": 20.0,
-      "position": 40.8
+      "impressions": 7,
+      "ctr": 14.29,
+      "position": 44.9
     },
     {
       "country": "are",
@@ -289,9 +289,9 @@
     {
       "country": "aus",
       "clicks": 0,
-      "impressions": 29,
+      "impressions": 36,
       "ctr": 0,
-      "position": 62.3
+      "position": 59.9
     },
     {
       "country": "aze",
@@ -324,9 +324,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 17,
       "ctr": 0,
-      "position": 38.1
+      "position": 40.5
     },
     {
       "country": "egy",
@@ -352,9 +352,9 @@
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 28,
       "ctr": 0,
-      "position": 49.0
+      "position": 51.1
     },
     {
       "country": "gha",
@@ -367,9 +367,9 @@
   "top_country": {
     "country": "ind",
     "clicks": 4,
-    "impressions": 706,
+    "impressions": 698,
     "ctr": 0.57,
-    "position": 41.2
+    "position": 41.3
   },
   "opportunities": {
     "low_ctr_pages": [
@@ -394,17 +394,24 @@
       {
         "country": "ind",
         "clicks": 4,
-        "impressions": 706,
+        "impressions": 698,
         "ctr": 0.57,
-        "position": 41.2
+        "position": 41.3
+      },
+      {
+        "country": "usa",
+        "clicks": 0,
+        "impressions": 103,
+        "ctr": 0,
+        "position": 47.7
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 4,
-      "impressions": 706,
+      "impressions": 698,
       "ctr": 0.57,
-      "position": 41.2
+      "position": 41.3
     }
   },
   "content_plan": [
@@ -426,13 +433,11 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 2,
+    "requested": 1,
     "inspected": 1,
-    "errors": 1,
-    "error_sample": "The read operation timed out",
-    "error_samples": [
-      "The read operation timed out"
-    ],
+    "errors": 0,
+    "error_sample": null,
+    "error_samples": [],
     "buckets": {
       "indexed": [],
       "fix": [],
@@ -444,12 +449,12 @@
       "ok-skip": [],
       "review": [
         {
-          "url": "https://artificialjewellers.com/",
+          "url": "https://artificialjewellers.com",
           "state": "Indexed, though blocked by robots.txt",
           "advice": "Review manually: Indexed, though blocked by robots.txt"
         }
       ]
     },
-    "urls_found": 2
+    "urls_found": 1
   }
 }
