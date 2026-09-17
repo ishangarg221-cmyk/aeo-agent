@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "16 Sep 2026, 08:44 UTC",
+  "generated": "17 Sep 2026, 08:48 UTC",
   "totals": {
     "clicks": 6,
-    "impressions": 1042
+    "impressions": 1043
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 3,
-      "impressions": 116,
-      "ctr": 2.59,
-      "position": 12.4
+      "impressions": 112,
+      "ctr": 2.68,
+      "position": 12.6
     },
     {
       "page": "https://artificialjewellers.com/pages/faq",
@@ -61,9 +61,9 @@
     {
       "page": "https://artificialjewellers.com/collections/all",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 7.3
+      "position": 7
     },
     {
       "page": "https://artificialjewellers.com/collections/bracelets-sets",
@@ -75,16 +75,16 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 125,
+      "impressions": 121,
       "ctr": 0,
-      "position": 66.6
+      "position": 66.5
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 226,
+      "impressions": 225,
       "ctr": 0,
-      "position": 50.7
+      "position": 50.9
     },
     {
       "page": "https://artificialjewellers.com/collections/jewellery-sets",
@@ -105,14 +105,14 @@
       "clicks": 0,
       "impressions": 38,
       "ctr": 0,
-      "position": 62.6
+      "position": 63.9
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 89,
+      "impressions": 85,
       "ctr": 0,
-      "position": 42.9
+      "position": 43.0
     }
   ],
   "top_queries": [
@@ -135,7 +135,7 @@
       "clicks": 0,
       "impressions": 40,
       "ctr": 0,
-      "position": 47.5
+      "position": 47.6
     },
     {
       "query": "artificial bangles for women",
@@ -175,16 +175,16 @@
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 17,
       "ctr": 0,
-      "position": 65.4
+      "position": 65.8
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 18,
       "ctr": 0,
-      "position": 57.8
+      "position": 57.9
     },
     {
       "query": "artificial bridal jewellery sets with price",
@@ -224,9 +224,9 @@
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 19,
       "ctr": 0,
-      "position": 54.7
+      "position": 55.1
     },
     {
       "query": "artificial earring wholesaler",
@@ -238,7 +238,7 @@
     {
       "query": "artificial earrings",
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 37,
       "ctr": 0,
       "position": 48.6
     },
@@ -261,9 +261,9 @@
     {
       "country": "ind",
       "clicks": 5,
-      "impressions": 658,
-      "ctr": 0.76,
-      "position": 41.2
+      "impressions": 649,
+      "ctr": 0.77,
+      "position": 41.6
     },
     {
       "country": "aut",
@@ -282,9 +282,9 @@
     {
       "country": "aus",
       "clicks": 0,
-      "impressions": 39,
+      "impressions": 44,
       "ctr": 0,
-      "position": 58
+      "position": 56.5
     },
     {
       "country": "aze",
@@ -331,9 +331,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 24,
       "ctr": 0,
-      "position": 48
+      "position": 49.9
     },
     {
       "country": "egy",
@@ -367,9 +367,9 @@
   "top_country": {
     "country": "ind",
     "clicks": 5,
-    "impressions": 658,
-    "ctr": 0.76,
-    "position": 41.2
+    "impressions": 649,
+    "ctr": 0.77,
+    "position": 41.6
   },
   "opportunities": {
     "low_ctr_pages": [
@@ -394,24 +394,24 @@
       {
         "country": "ind",
         "clicks": 5,
-        "impressions": 658,
-        "ctr": 0.76,
-        "position": 41.2
+        "impressions": 649,
+        "ctr": 0.77,
+        "position": 41.6
       },
       {
         "country": "usa",
         "clicks": 0,
-        "impressions": 140,
+        "impressions": 143,
         "ctr": 0,
-        "position": 51.1
+        "position": 51.5
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 5,
-      "impressions": 658,
-      "ctr": 0.76,
-      "position": 41.2
+      "impressions": 649,
+      "ctr": 0.77,
+      "position": 41.6
     }
   },
   "content_plan": [
