@@ -3,25 +3,25 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "20 Sep 2026, 08:44 UTC",
+  "generated": "21 Sep 2026, 09:10 UTC",
   "totals": {
-    "clicks": 6,
-    "impressions": 1071
+    "clicks": 5,
+    "impressions": 1079
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
-      "clicks": 4,
-      "impressions": 103,
-      "ctr": 3.88,
+      "clicks": 3,
+      "impressions": 101,
+      "ctr": 2.97,
       "position": 14.3
     },
     {
       "page": "https://artificialjewellers.com/pages/faq",
       "clicks": 1,
-      "impressions": 4,
-      "ctr": 25.0,
-      "position": 4.2
+      "impressions": 5,
+      "ctr": 20.0,
+      "position": 5
     },
     {
       "page": "https://artificialjewellers.com/pages/terms-of-service",
@@ -68,16 +68,16 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 102,
+      "impressions": 97,
       "ctr": 0,
       "position": 67.0
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 223,
+      "impressions": 227,
       "ctr": 0,
-      "position": 51.6
+      "position": 51.3
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -96,39 +96,53 @@
     {
       "page": "https://artificialjewellers.com/collections/kangans",
       "clicks": 0,
-      "impressions": 49,
+      "impressions": 43,
       "ctr": 0,
-      "position": 8.8
+      "position": 8.9
     },
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 40,
+      "impressions": 38,
       "ctr": 0,
-      "position": 62.8
+      "position": 62.4
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 79,
+      "impressions": 87,
       "ctr": 0,
-      "position": 45.6
+      "position": 46.8
     }
   ],
   "top_queries": [
     {
       "query": "myna jewellery",
-      "clicks": 2,
-      "impressions": 13,
-      "ctr": 15.38,
-      "position": 2.9
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 8.33,
+      "position": 3.1
+    },
+    {
+      "query": "aesthetic earrings manufacturer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 91
+    },
+    {
+      "query": "alda feather pendant",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
     },
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 45,
+      "impressions": 47,
       "ctr": 0,
-      "position": 47.7
+      "position": 47.9
     },
     {
       "query": "artificial bangles for women",
@@ -168,9 +182,9 @@
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0,
-      "position": 67.3
+      "position": 67.8
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
@@ -231,9 +245,9 @@
     {
       "query": "artificial earrings",
       "clicks": 0,
-      "impressions": 30,
+      "impressions": 29,
       "ctr": 0,
-      "position": 48.9
+      "position": 49.0
     },
     {
       "query": "artificial earrings design",
@@ -241,36 +255,22 @@
       "impressions": 4,
       "ctr": 0,
       "position": 45
-    },
-    {
-      "query": "artificial earrings designs",
-      "clicks": 0,
-      "impressions": 10,
-      "ctr": 0,
-      "position": 56.2
-    },
-    {
-      "query": "artificial earrings for wedding",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 66
     }
   ],
   "countries": [
     {
       "country": "ind",
-      "clicks": 6,
-      "impressions": 598,
-      "ctr": 1.0,
-      "position": 42.5
+      "clicks": 5,
+      "impressions": 599,
+      "ctr": 0.83,
+      "position": 42.9
     },
     {
       "country": "are",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 40.2
+      "position": 46.8
     },
     {
       "country": "arg",
@@ -282,9 +282,9 @@
     {
       "country": "aus",
       "clicks": 0,
-      "impressions": 43,
+      "impressions": 45,
       "ctr": 0,
-      "position": 57.6
+      "position": 55.4
     },
     {
       "country": "aze",
@@ -359,17 +359,17 @@
     {
       "country": "fin",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 4
+      "position": 6.5
     }
   ],
   "top_country": {
     "country": "ind",
-    "clicks": 6,
-    "impressions": 598,
-    "ctr": 1.0,
-    "position": 42.5
+    "clicks": 5,
+    "impressions": 599,
+    "ctr": 0.83,
+    "position": 42.9
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -377,39 +377,39 @@
       {
         "query": "kangans",
         "clicks": 0,
-        "impressions": 46,
+        "impressions": 41,
         "ctr": 0,
-        "position": 8.6
+        "position": 8.8
       }
     ],
     "country_gaps": [
       {
         "country": "ind",
-        "clicks": 6,
-        "impressions": 598,
-        "ctr": 1.0,
-        "position": 42.5
+        "clicks": 5,
+        "impressions": 599,
+        "ctr": 0.83,
+        "position": 42.9
       },
       {
         "country": "usa",
         "clicks": 0,
-        "impressions": 195,
+        "impressions": 196,
         "ctr": 0,
-        "position": 55
+        "position": 55.2
       }
     ],
     "top_country": {
       "country": "ind",
-      "clicks": 6,
-      "impressions": 598,
-      "ctr": 1.0,
-      "position": 42.5
+      "clicks": 5,
+      "impressions": 599,
+      "ctr": 0.83,
+      "position": 42.9
     }
   },
   "content_plan": [
     {
       "target": "kangans",
-      "why": "ranks #8.6 with 46 impressions/mo",
+      "why": "ranks #8.8 with 41 impressions/mo",
       "action": "Create or expand a page that directly answers this query \u2014 a question-style H2 + a 40-60 word direct answer + supporting detail. You're one page from page-one."
     }
   ],
@@ -420,13 +420,15 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 1,
-    "inspected": 1,
+    "requested": 2,
+    "inspected": 2,
     "errors": 0,
     "error_sample": null,
     "error_samples": [],
     "buckets": {
-      "indexed": [],
+      "indexed": [
+        "https://artificialjewellers.com/collections/all"
+      ],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
@@ -436,12 +438,12 @@
       "ok-skip": [],
       "review": [
         {
-          "url": "https://artificialjewellers.com",
+          "url": "https://artificialjewellers.com/",
           "state": "Indexed, though blocked by robots.txt",
           "advice": "Review manually: Indexed, though blocked by robots.txt"
         }
       ]
     },
-    "urls_found": 1
+    "urls_found": 2
   }
 }
