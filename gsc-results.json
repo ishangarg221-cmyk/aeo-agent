@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "22 Sep 2026, 08:42 UTC",
+  "generated": "23 Sep 2026, 08:44 UTC",
   "totals": {
     "clicks": 5,
-    "impressions": 1082
+    "impressions": 1051
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 3,
-      "impressions": 103,
-      "ctr": 2.91,
-      "position": 14.1
+      "impressions": 104,
+      "ctr": 2.88,
+      "position": 14.4
     },
     {
       "page": "https://artificialjewellers.com/pages/faq",
@@ -68,16 +68,16 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 89,
+      "impressions": 71,
       "ctr": 0,
-      "position": 67.0
+      "position": 67.7
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 217,
+      "impressions": 205,
       "ctr": 0,
-      "position": 51.7
+      "position": 51.8
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -96,32 +96,32 @@
     {
       "page": "https://artificialjewellers.com/collections/kangans",
       "clicks": 0,
-      "impressions": 39,
+      "impressions": 33,
       "ctr": 0,
-      "position": 8.8
+      "position": 9.2
     },
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 37,
+      "impressions": 35,
       "ctr": 0,
-      "position": 62.2
+      "position": 62.1
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 91,
+      "impressions": 94,
       "ctr": 0,
-      "position": 48
+      "position": 48.4
     }
   ],
   "top_queries": [
     {
       "query": "myna jewellery",
       "clicks": 1,
-      "impressions": 13,
-      "ctr": 7.69,
-      "position": 3.3
+      "impressions": 11,
+      "ctr": 9.09,
+      "position": 3.5
     },
     {
       "query": "aesthetic earrings manufacturer",
@@ -161,9 +161,9 @@
     {
       "query": "artificial bangles online shopping",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 52.5
+      "position": 53
     },
     {
       "query": "artificial bangles set",
@@ -182,16 +182,16 @@
     {
       "query": "artificial bridal jewellery",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 69.4
+      "position": 69.7
     },
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 11,
       "ctr": 0,
-      "position": 59
+      "position": 58.1
     },
     {
       "query": "artificial bridal jewellery sets with price",
@@ -217,9 +217,9 @@
     {
       "query": "artificial earring designs",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 9,
       "ctr": 0,
-      "position": 52.1
+      "position": 51.9
     },
     {
       "query": "artificial earring manufacture",
@@ -231,9 +231,9 @@
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 20,
       "ctr": 0,
-      "position": 56.2
+      "position": 56.5
     },
     {
       "query": "artificial earring wholesaler",
@@ -247,7 +247,7 @@
       "clicks": 0,
       "impressions": 27,
       "ctr": 0,
-      "position": 49.0
+      "position": 48.7
     },
     {
       "query": "artificial earrings design",
@@ -261,9 +261,9 @@
     {
       "country": "ind",
       "clicks": 5,
-      "impressions": 580,
-      "ctr": 0.86,
-      "position": 42.8
+      "impressions": 548,
+      "ctr": 0.91,
+      "position": 42.5
     },
     {
       "country": "ago",
@@ -345,9 +345,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 27,
+      "impressions": 28,
       "ctr": 0,
-      "position": 51.4
+      "position": 49.9
     },
     {
       "country": "egy",
@@ -367,9 +367,9 @@
   "top_country": {
     "country": "ind",
     "clicks": 5,
-    "impressions": 580,
-    "ctr": 0.86,
-    "position": 42.8
+    "impressions": 548,
+    "ctr": 0.91,
+    "position": 42.5
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -377,39 +377,39 @@
       {
         "query": "kangans",
         "clicks": 0,
-        "impressions": 38,
+        "impressions": 32,
         "ctr": 0,
-        "position": 8.8
+        "position": 9.2
       }
     ],
     "country_gaps": [
       {
         "country": "ind",
         "clicks": 5,
-        "impressions": 580,
-        "ctr": 0.86,
-        "position": 42.8
+        "impressions": 548,
+        "ctr": 0.91,
+        "position": 42.5
       },
       {
         "country": "usa",
         "clicks": 0,
         "impressions": 213,
         "ctr": 0,
-        "position": 55.3
+        "position": 55.2
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 5,
-      "impressions": 580,
-      "ctr": 0.86,
-      "position": 42.8
+      "impressions": 548,
+      "ctr": 0.91,
+      "position": 42.5
     }
   },
   "content_plan": [
     {
       "target": "kangans",
-      "why": "ranks #8.8 with 38 impressions/mo",
+      "why": "ranks #9.2 with 32 impressions/mo",
       "action": "Create or expand a page that directly answers this query \u2014 a question-style H2 + a 40-60 word direct answer + supporting detail. You're one page from page-one."
     }
   ],
@@ -428,7 +428,9 @@
       "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
     ],
     "buckets": {
-      "indexed": [],
+      "indexed": [
+        "https://artificialjewellers.com/collections/all"
+      ],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
@@ -436,13 +438,7 @@
       "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": [
-        {
-          "url": "https://artificialjewellers.com/",
-          "state": "Indexed, though blocked by robots.txt",
-          "advice": "Review manually: Indexed, though blocked by robots.txt"
-        }
-      ]
+      "review": []
     },
     "urls_found": 2
   }
