@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "01 Oct 2026, 10:20 UTC",
+  "generated": "02 Oct 2026, 09:57 UTC",
   "totals": {
-    "clicks": 3,
-    "impressions": 809
+    "clicks": 4,
+    "impressions": 781
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
-      "clicks": 1,
-      "impressions": 67,
-      "ctr": 1.49,
-      "position": 18.3
+      "clicks": 2,
+      "impressions": 63,
+      "ctr": 3.17,
+      "position": 19.6
     },
     {
       "page": "https://artificialjewellers.com/pages/faq",
@@ -54,16 +54,16 @@
     {
       "page": "https://artificialjewellers.com/collections/bridal",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 8,
       "ctr": 0,
-      "position": 66.8
+      "position": 66
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 114,
+      "impressions": 103,
       "ctr": 0,
-      "position": 54.9
+      "position": 55.0
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -82,30 +82,30 @@
     {
       "page": "https://artificialjewellers.com/collections/kangans",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 7.3
+      "position": 7.2
     },
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 21,
       "ctr": 0,
       "position": 61.0
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 96,
+      "impressions": 94,
       "ctr": 0,
-      "position": 53.4
+      "position": 54.7
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 60,
+      "impressions": 58,
       "ctr": 0,
-      "position": 42.8
+      "position": 42.5
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles-1",
@@ -133,9 +133,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 48,
+      "impressions": 46,
       "ctr": 0,
-      "position": 47.9
+      "position": 47.8
     },
     {
       "query": "artificial bangles for women",
@@ -182,9 +182,9 @@
     {
       "query": "artificial bridal jewellery sets online shopping",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 57.2
+      "position": 57.3
     },
     {
       "query": "artificial earings",
@@ -196,9 +196,9 @@
     {
       "query": "artificial earring designs",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 49.5
+      "position": 45
     },
     {
       "query": "artificial earring manufacture",
@@ -210,9 +210,9 @@
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 61.9
+      "position": 62.4
     },
     {
       "query": "artificial earring wholesaler",
@@ -224,9 +224,9 @@
     {
       "query": "artificial earrings",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 49.7
+      "position": 48.8
     },
     {
       "query": "artificial earrings design",
@@ -238,9 +238,9 @@
     {
       "query": "artificial earrings designs",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 51
+      "position": 50.7
     },
     {
       "query": "artificial earrings for wedding",
@@ -252,18 +252,25 @@
     {
       "query": "artificial earrings for women",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0,
-      "position": 58
+      "position": 56.5
     }
   ],
   "countries": [
     {
       "country": "ind",
       "clicks": 3,
-      "impressions": 338,
-      "ctr": 0.89,
-      "position": 44.6
+      "impressions": 312,
+      "ctr": 0.96,
+      "position": 45.1
+    },
+    {
+      "country": "usa",
+      "clicks": 1,
+      "impressions": 206,
+      "ctr": 0.49,
+      "position": 56.9
     },
     {
       "country": "ago",
@@ -345,9 +352,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 24,
       "ctr": 0,
-      "position": 54.6
+      "position": 55.7
     },
     {
       "country": "egy",
@@ -355,64 +362,43 @@
       "impressions": 4,
       "ctr": 0,
       "position": 52.5
-    },
-    {
-      "country": "esp",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 68
     }
   ],
   "top_country": {
     "country": "ind",
     "clicks": 3,
-    "impressions": 338,
-    "ctr": 0.89,
-    "position": 44.6
+    "impressions": 312,
+    "ctr": 0.96,
+    "position": 45.1
   },
   "opportunities": {
-    "low_ctr_pages": [
-      {
-        "page": "https://artificialjewellers.com/",
-        "clicks": 1,
-        "impressions": 67,
-        "ctr": 1.49,
-        "position": 18.3
-      }
-    ],
+    "low_ctr_pages": [],
     "striking_distance": [],
     "country_gaps": [
       {
         "country": "ind",
         "clicks": 3,
-        "impressions": 338,
-        "ctr": 0.89,
-        "position": 44.6
+        "impressions": 312,
+        "ctr": 0.96,
+        "position": 45.1
       },
       {
         "country": "usa",
-        "clicks": 0,
-        "impressions": 207,
-        "ctr": 0,
-        "position": 56.5
+        "clicks": 1,
+        "impressions": 206,
+        "ctr": 0.49,
+        "position": 56.9
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 3,
-      "impressions": 338,
-      "ctr": 0.89,
-      "position": 44.6
+      "impressions": 312,
+      "ctr": 0.96,
+      "position": 45.1
     }
   },
-  "content_plan": [
-    {
-      "target": "/",
-      "why": "67 impressions but only 1.49% CTR",
-      "action": "Rewrite the title tag + meta description to match intent and add a hook. Impressions are there; the click isn't."
-    }
-  ],
+  "content_plan": [],
   "sitemap_summary": {
     "count": 15,
     "with_errors": 1,
@@ -423,9 +409,9 @@
     "requested": 2,
     "inspected": 1,
     "errors": 1,
-    "error_sample": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2580)",
+    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
     "error_samples": [
-      "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2580)"
+      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
     ],
     "buckets": {
       "indexed": [],
