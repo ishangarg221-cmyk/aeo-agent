@@ -3,10 +3,10 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "03 Oct 2026, 09:19 UTC",
+  "generated": "04 Oct 2026, 09:59 UTC",
   "totals": {
     "clicks": 4,
-    "impressions": 758
+    "impressions": 735
   },
   "top_pages": [
     {
@@ -52,13 +52,6 @@
       "position": 14.5
     },
     {
-      "page": "https://artificialjewellers.com/collections/bridal",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 68
-    },
-    {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
       "impressions": 99,
@@ -82,30 +75,30 @@
     {
       "page": "https://artificialjewellers.com/collections/kangans",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 1,
       "ctr": 0,
-      "position": 7.2
+      "position": 7
     },
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 19,
       "ctr": 0,
       "position": 60.9
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 90,
+      "impressions": 86,
       "ctr": 0,
-      "position": 55.6
+      "position": 56.8
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 56,
+      "impressions": 54,
       "ctr": 0,
-      "position": 42.4
+      "position": 42.1
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles-1",
@@ -113,6 +106,13 @@
       "impressions": 11,
       "ctr": 0,
       "position": 47.1
+    },
+    {
+      "page": "https://artificialjewellers.com/pages/affiliates",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
     }
   ],
   "top_queries": [
@@ -133,16 +133,16 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 44,
+      "impressions": 43,
       "ctr": 0,
       "position": 47.8
     },
     {
       "query": "artificial bangles for women",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 52
+      "position": 53
     },
     {
       "query": "artificial bangles online",
@@ -261,16 +261,16 @@
     {
       "country": "ind",
       "clicks": 3,
-      "impressions": 295,
-      "ctr": 1.02,
-      "position": 44.8
+      "impressions": 282,
+      "ctr": 1.06,
+      "position": 45.5
     },
     {
       "country": "usa",
       "clicks": 1,
-      "impressions": 201,
-      "ctr": 0.5,
-      "position": 57.4
+      "impressions": 196,
+      "ctr": 0.51,
+      "position": 58.8
     },
     {
       "country": "ago",
@@ -352,9 +352,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 24,
+      "impressions": 23,
       "ctr": 0,
-      "position": 55.7
+      "position": 55.6
     },
     {
       "country": "egy",
@@ -367,9 +367,9 @@
   "top_country": {
     "country": "ind",
     "clicks": 3,
-    "impressions": 295,
-    "ctr": 1.02,
-    "position": 44.8
+    "impressions": 282,
+    "ctr": 1.06,
+    "position": 45.5
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -378,24 +378,24 @@
       {
         "country": "ind",
         "clicks": 3,
-        "impressions": 295,
-        "ctr": 1.02,
-        "position": 44.8
+        "impressions": 282,
+        "ctr": 1.06,
+        "position": 45.5
       },
       {
         "country": "usa",
         "clicks": 1,
-        "impressions": 201,
-        "ctr": 0.5,
-        "position": 57.4
+        "impressions": 196,
+        "ctr": 0.51,
+        "position": 58.8
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 3,
-      "impressions": 295,
-      "ctr": 1.02,
-      "position": 44.8
+      "impressions": 282,
+      "ctr": 1.06,
+      "position": 45.5
     }
   },
   "content_plan": [],
@@ -406,30 +406,28 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 2,
+    "requested": 1,
     "inspected": 1,
-    "errors": 1,
-    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
-    "error_samples": [
-      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
-    ],
+    "errors": 0,
+    "error_sample": null,
+    "error_samples": [],
     "buckets": {
       "indexed": [],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
       "noindex": [],
-      "robots": [
-        {
-          "url": "https://artificialjewellers.com/",
-          "state": "Blocked by robots.txt",
-          "advice": "Blocked in robots.txt. Unblock if valuable."
-        }
-      ],
+      "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": []
+      "review": [
+        {
+          "url": "https://artificialjewellers.com",
+          "state": "Indexed, though blocked by robots.txt",
+          "advice": "Review manually: Indexed, though blocked by robots.txt"
+        }
+      ]
     },
-    "urls_found": 2
+    "urls_found": 1
   }
 }
