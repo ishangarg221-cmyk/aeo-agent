@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "12 Oct 2026, 11:10 UTC",
+  "generated": "13 Oct 2026, 10:52 UTC",
   "totals": {
     "clicks": 2,
-    "impressions": 484
+    "impressions": 461
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 2,
-      "impressions": 53,
-      "ctr": 3.77,
-      "position": 14.5
+      "impressions": 52,
+      "ctr": 3.85,
+      "position": 15.4
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-myna/the-right-way-to-care-for-your-jewellery",
@@ -26,16 +26,16 @@
     {
       "page": "https://artificialjewellers.com/collections/all",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5
+      "position": 4.7
     },
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 54,
+      "impressions": 51,
       "ctr": 0,
-      "position": 51.3
+      "position": 50.4
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -47,23 +47,23 @@
     {
       "page": "https://artificialjewellers.com/collections/kundan",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 56.3
+      "position": 55.7
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 86,
+      "impressions": 87,
       "ctr": 0,
-      "position": 60.4
+      "position": 59.1
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 39,
       "ctr": 0,
-      "position": 40.8
+      "position": 39.3
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles-1",
@@ -110,9 +110,9 @@
     {
       "page": "https://artificialjewellers.com/pages/wholesale",
       "clicks": 0,
-      "impressions": 123,
+      "impressions": 109,
       "ctr": 0,
-      "position": 62.7
+      "position": 62.5
     }
   ],
   "top_queries": [
@@ -133,9 +133,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 28,
+      "impressions": 27,
       "ctr": 0,
-      "position": 48.6
+      "position": 48.8
     },
     {
       "query": "artificial bangles for women",
@@ -168,9 +168,9 @@
     {
       "query": "artificial earring online",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 62.4
+      "position": 62.5
     },
     {
       "query": "artificial earrings",
@@ -210,9 +210,9 @@
     {
       "query": "artificial earrings online",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
-      "position": 55.4
+      "position": 54.1
     },
     {
       "query": "artificial fancy jewellery",
@@ -224,9 +224,9 @@
     {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 11,
       "ctr": 0,
-      "position": 52.8
+      "position": 54.6
     },
     {
       "query": "artificial jewellery artificial jewellery",
@@ -250,27 +250,27 @@
       "position": 65
     },
     {
-      "query": "artificial jewellery designs catalogue with price",
+      "query": "artificial jewellery for kids",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 79
+      "position": 73
     }
   ],
   "countries": [
     {
       "country": "ind",
       "clicks": 1,
-      "impressions": 233,
-      "ctr": 0.43,
-      "position": 45.8
+      "impressions": 223,
+      "ctr": 0.45,
+      "position": 45.6
     },
     {
       "country": "usa",
       "clicks": 1,
-      "impressions": 117,
-      "ctr": 0.85,
-      "position": 57.7
+      "impressions": 114,
+      "ctr": 0.88,
+      "position": 56.9
     },
     {
       "country": "ago",
@@ -296,9 +296,9 @@
     {
       "country": "aus",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 5,
       "ctr": 0,
-      "position": 28.9
+      "position": 8.6
     },
     {
       "country": "aut",
@@ -345,9 +345,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 6,
       "ctr": 0,
-      "position": 51.4
+      "position": 45.7
     },
     {
       "country": "fin",
@@ -359,17 +359,17 @@
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 20,
       "ctr": 0,
-      "position": 58.7
+      "position": 56.0
     }
   ],
   "top_country": {
     "country": "ind",
     "clicks": 1,
-    "impressions": 233,
-    "ctr": 0.43,
-    "position": 45.8
+    "impressions": 223,
+    "ctr": 0.45,
+    "position": 45.6
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -378,24 +378,24 @@
       {
         "country": "ind",
         "clicks": 1,
-        "impressions": 233,
-        "ctr": 0.43,
-        "position": 45.8
+        "impressions": 223,
+        "ctr": 0.45,
+        "position": 45.6
       },
       {
         "country": "usa",
         "clicks": 1,
-        "impressions": 117,
-        "ctr": 0.85,
-        "position": 57.7
+        "impressions": 114,
+        "ctr": 0.88,
+        "position": 56.9
       }
     ],
     "top_country": {
       "country": "ind",
       "clicks": 1,
-      "impressions": 233,
-      "ctr": 0.43,
-      "position": 45.8
+      "impressions": 223,
+      "ctr": 0.45,
+      "position": 45.6
     }
   },
   "content_plan": [],
@@ -407,14 +407,14 @@
   },
   "index": {
     "requested": 2,
-    "inspected": 2,
-    "errors": 0,
-    "error_sample": null,
-    "error_samples": [],
+    "inspected": 1,
+    "errors": 1,
+    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_samples": [
+      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+    ],
     "buckets": {
-      "indexed": [
-        "https://artificialjewellers.com/collections/all"
-      ],
+      "indexed": [],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
