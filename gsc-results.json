@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "18 Oct 2026, 08:12 UTC",
+  "generated": "20 Oct 2026, 08:45 UTC",
   "totals": {
     "clicks": 1,
-    "impressions": 324
+    "impressions": 287
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 1,
-      "impressions": 56,
-      "ctr": 1.79,
-      "position": 19.5
+      "impressions": 49,
+      "ctr": 2.04,
+      "position": 20.7
     },
     {
       "page": "https://artificialjewellers.com/collections/all",
@@ -26,9 +26,9 @@
     {
       "page": "https://artificialjewellers.com/collections/earrings",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 1,
       "ctr": 0,
-      "position": 52.4
+      "position": 61
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -40,23 +40,23 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 97,
+      "impressions": 86,
       "ctr": 0,
-      "position": 55.9
+      "position": 54.4
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 28,
+      "impressions": 26,
       "ctr": 0,
-      "position": 40.7
+      "position": 40.2
     },
     {
-      "page": "https://artificialjewellers.com/collections/rings-bangles-1",
+      "page": "https://artificialjewellers.com/home/",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 47.7
+      "position": 74
     },
     {
       "page": "https://artificialjewellers.com/pages/our-process",
@@ -75,9 +75,9 @@
     {
       "page": "https://artificialjewellers.com/pages/wholesale",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 4,
       "ctr": 0,
-      "position": 65.1
+      "position": 67.5
     },
     {
       "page": "https://artificialjewellers.com/policies/shipping-policy",
@@ -103,25 +103,25 @@
     {
       "page": "https://artificialjewellers.com/products/esmera-pendant-set",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 54.5
+      "position": 54.2
     },
     {
       "page": "https://artificialjewellers.com/products/lumina-pendant-set",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 35
+      "position": 27.5
     }
   ],
   "top_queries": [
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 18,
       "ctr": 0,
-      "position": 48.5
+      "position": 48.6
     },
     {
       "query": "artificial bangles for women",
@@ -131,74 +131,18 @@
       "position": 50.5
     },
     {
-      "query": "artificial bangles online shopping",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 54
-    },
-    {
-      "query": "artificial bracelets",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 54
-    },
-    {
-      "query": "artificial earring online",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 64
-    },
-    {
-      "query": "artificial earrings",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 38
-    },
-    {
-      "query": "artificial earrings design",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 44
-    },
-    {
-      "query": "artificial earrings for women",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 59
-    },
-    {
-      "query": "artificial earrings online",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 58.1
+      "position": 58.5
     },
     {
       "query": "artificial jewellery artificial jewellery",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 66.8
-    },
-    {
-      "query": "artificial jewellery brands",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 65
+      "position": 67.2
     },
     {
       "query": "artificial jewellery for kids",
@@ -219,7 +163,7 @@
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 49.7
+      "position": 67.3
     },
     {
       "query": "artificial jewellery near me",
@@ -231,9 +175,9 @@
     {
       "query": "artificial jewellery online",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 65.2
+      "position": 65
     },
     {
       "query": "artificial jewellery online shopping uae",
@@ -252,18 +196,74 @@
     {
       "query": "artificial jewellery shop near me",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 9.7
+      "position": 8
+    },
+    {
+      "query": "artificial jewellery with price",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 32
+    },
+    {
+      "query": "artificial jewelry",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 64.2
+    },
+    {
+      "query": "artificial jewelry designs",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 75.5
+    },
+    {
+      "query": "artificial necklace",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "query": "artificial necklaces set",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "query": "best artificial jewellery online",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "query": "celestia bloom",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "celestia blooms",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
     }
   ],
   "countries": [
     {
       "country": "usa",
       "clicks": 1,
-      "impressions": 60,
-      "ctr": 1.67,
-      "position": 49.0
+      "impressions": 54,
+      "ctr": 1.85,
+      "position": 46.7
     },
     {
       "country": "are",
@@ -303,9 +303,9 @@
     {
       "country": "bgd",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 96
+      "position": 77
     },
     {
       "country": "bih",
@@ -333,21 +333,21 @@
       "clicks": 0,
       "impressions": 4,
       "ctr": 0,
-      "position": 23.2
+      "position": 55.8
     },
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 20,
       "ctr": 0,
-      "position": 53.1
+      "position": 49.8
     },
     {
       "country": "ind",
       "clicks": 0,
-      "impressions": 187,
+      "impressions": 159,
       "ctr": 0,
-      "position": 42.8
+      "position": 41.5
     },
     {
       "country": "irn",
@@ -367,45 +367,31 @@
   "top_country": {
     "country": "usa",
     "clicks": 1,
-    "impressions": 60,
-    "ctr": 1.67,
-    "position": 49.0
+    "impressions": 54,
+    "ctr": 1.85,
+    "position": 46.7
   },
   "opportunities": {
-    "low_ctr_pages": [
-      {
-        "page": "https://artificialjewellers.com/",
-        "clicks": 1,
-        "impressions": 56,
-        "ctr": 1.79,
-        "position": 19.5
-      }
-    ],
+    "low_ctr_pages": [],
     "striking_distance": [],
     "country_gaps": [
       {
         "country": "ind",
         "clicks": 0,
-        "impressions": 187,
+        "impressions": 159,
         "ctr": 0,
-        "position": 42.8
+        "position": 41.5
       }
     ],
     "top_country": {
       "country": "usa",
       "clicks": 1,
-      "impressions": 60,
-      "ctr": 1.67,
-      "position": 49.0
+      "impressions": 54,
+      "ctr": 1.85,
+      "position": 46.7
     }
   },
-  "content_plan": [
-    {
-      "target": "/",
-      "why": "56 impressions but only 1.79% CTR",
-      "action": "Rewrite the title tag + meta description to match intent and add a hook. Impressions are there; the click isn't."
-    }
-  ],
+  "content_plan": [],
   "sitemap_summary": {
     "count": 15,
     "with_errors": 1,
@@ -413,13 +399,17 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 1,
+    "requested": 2,
     "inspected": 1,
-    "errors": 0,
-    "error_sample": null,
-    "error_samples": [],
+    "errors": 1,
+    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_samples": [
+      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+    ],
     "buckets": {
-      "indexed": [],
+      "indexed": [
+        "https://artificialjewellers.com/collections/all"
+      ],
       "fix": [],
       "junk-not-indexed": [],
       "canonical": [],
@@ -427,14 +417,8 @@
       "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": [
-        {
-          "url": "https://artificialjewellers.com",
-          "state": "Indexed, though blocked by robots.txt",
-          "advice": "Review manually: Indexed, though blocked by robots.txt"
-        }
-      ]
+      "review": []
     },
-    "urls_found": 1
+    "urls_found": 2
   }
 }
