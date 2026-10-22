@@ -3,32 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "20 Oct 2026, 08:45 UTC",
+  "generated": "22 Oct 2026, 08:47 UTC",
   "totals": {
     "clicks": 1,
-    "impressions": 287
+    "impressions": 294
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 1,
-      "impressions": 49,
-      "ctr": 2.04,
-      "position": 20.7
-    },
-    {
-      "page": "https://artificialjewellers.com/collections/all",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "page": "https://artificialjewellers.com/collections/earrings",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 61
+      "impressions": 46,
+      "ctr": 2.17,
+      "position": 20.9
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -40,23 +26,23 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 86,
+      "impressions": 94,
       "ctr": 0,
-      "position": 54.4
+      "position": 55.4
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 26,
+      "impressions": 23,
       "ctr": 0,
-      "position": 40.2
+      "position": 44.3
     },
     {
       "page": "https://artificialjewellers.com/home/",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 7,
       "ctr": 0,
-      "position": 74
+      "position": 56.9
     },
     {
       "page": "https://artificialjewellers.com/pages/our-process",
@@ -66,25 +52,18 @@
       "position": 9
     },
     {
-      "page": "https://artificialjewellers.com/pages/sustainability",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 1
-    },
-    {
-      "page": "https://artificialjewellers.com/pages/wholesale",
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0,
-      "position": 67.5
-    },
-    {
       "page": "https://artificialjewellers.com/policies/shipping-policy",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 3
+    },
+    {
+      "page": "https://artificialjewellers.com/products/aurelia-radiance-pendant-set",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
     },
     {
       "page": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
@@ -103,16 +82,37 @@
     {
       "page": "https://artificialjewellers.com/products/esmera-pendant-set",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 17,
       "ctr": 0,
-      "position": 54.2
+      "position": 50.5
     },
     {
       "page": "https://artificialjewellers.com/products/lumina-pendant-set",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 27.5
+      "position": 27.2
+    },
+    {
+      "page": "https://artificialjewellers.com/products/motiya-pearl-bangle-set",
+      "clicks": 0,
+      "impressions": 40,
+      "ctr": 0,
+      "position": 54.2
+    },
+    {
+      "page": "https://artificialjewellers.com/products/noor-mahal-pearl-heritage-bangle-set",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "https://artificialjewellers.com/products/pearl-radiance-bangle-pair",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 61.4
     }
   ],
   "top_queries": [
@@ -131,18 +131,39 @@
       "position": 50.5
     },
     {
+      "query": "artificial emerald necklace",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43
+    },
+    {
+      "query": "artificial jewellers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 20
+    },
+    {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 58.5
+      "position": 61.8
     },
     {
       "query": "artificial jewellery artificial jewellery",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 67.2
+      "position": 66.6
+    },
+    {
+      "query": "artificial jewellery designs",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
     },
     {
       "query": "artificial jewellery for kids",
@@ -152,18 +173,11 @@
       "position": 73
     },
     {
-      "query": "artificial jewellery for women",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 60
-    },
-    {
       "query": "artificial jewellery market",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 67.3
+      "position": 73
     },
     {
       "query": "artificial jewellery near me",
@@ -175,9 +189,9 @@
     {
       "query": "artificial jewellery online",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 65
+      "position": 65.2
     },
     {
       "query": "artificial jewellery online shopping uae",
@@ -187,11 +201,18 @@
       "position": 36
     },
     {
+      "query": "artificial jewellery shop images",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 66
+    },
+    {
       "query": "artificial jewellery shop indore",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 29.7
+      "position": 28.5
     },
     {
       "query": "artificial jewellery shop near me",
@@ -210,9 +231,9 @@
     {
       "query": "artificial jewelry",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 64.2
+      "position": 64.8
     },
     {
       "query": "artificial jewelry designs",
@@ -220,20 +241,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 75.5
-    },
-    {
-      "query": "artificial necklace",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 37
-    },
-    {
-      "query": "artificial necklaces set",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 42
     },
     {
       "query": "best artificial jewellery online",
@@ -248,22 +255,15 @@
       "impressions": 2,
       "ctr": 0,
       "position": 8
-    },
-    {
-      "query": "celestia blooms",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 9
     }
   ],
   "countries": [
     {
       "country": "usa",
       "clicks": 1,
-      "impressions": 54,
-      "ctr": 1.85,
-      "position": 46.7
+      "impressions": 58,
+      "ctr": 1.72,
+      "position": 45.6
     },
     {
       "country": "are",
@@ -317,9 +317,9 @@
     {
       "country": "bra",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 7,
       "ctr": 0,
-      "position": 11
+      "position": 39.9
     },
     {
       "country": "can",
@@ -329,47 +329,47 @@
       "position": 10
     },
     {
+      "country": "col",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 27.5
+    },
+    {
       "country": "deu",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 55.8
+      "position": 61.2
+    },
+    {
+      "country": "fra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
     },
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 19,
       "ctr": 0,
-      "position": 49.8
+      "position": 58.1
     },
     {
-      "country": "ind",
+      "country": "hnd",
       "clicks": 0,
-      "impressions": 159,
+      "impressions": 1,
       "ctr": 0,
-      "position": 41.5
-    },
-    {
-      "country": "irn",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 15.5
-    },
-    {
-      "country": "jor",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 59
+      "position": 71
     }
   ],
   "top_country": {
     "country": "usa",
     "clicks": 1,
-    "impressions": 54,
-    "ctr": 1.85,
-    "position": 46.7
+    "impressions": 58,
+    "ctr": 1.72,
+    "position": 45.6
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -378,17 +378,17 @@
       {
         "country": "ind",
         "clicks": 0,
-        "impressions": 159,
+        "impressions": 150,
         "ctr": 0,
-        "position": 41.5
+        "position": 41.6
       }
     ],
     "top_country": {
       "country": "usa",
       "clicks": 1,
-      "impressions": 54,
-      "ctr": 1.85,
-      "position": 46.7
+      "impressions": 58,
+      "ctr": 1.72,
+      "position": 45.6
     }
   },
   "content_plan": [],
