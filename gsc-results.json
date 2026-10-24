@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "23 Oct 2026, 08:43 UTC",
+  "generated": "24 Oct 2026, 08:18 UTC",
   "totals": {
     "clicks": 1,
-    "impressions": 315
+    "impressions": 335
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 1,
-      "impressions": 45,
-      "ctr": 2.22,
-      "position": 21.4
+      "impressions": 44,
+      "ctr": 2.27,
+      "position": 21.7
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -26,9 +26,9 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 112,
+      "impressions": 119,
       "ctr": 0,
-      "position": 56.1
+      "position": 56.5
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
@@ -40,9 +40,9 @@
     {
       "page": "https://artificialjewellers.com/home/",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 11,
       "ctr": 0,
-      "position": 53
+      "position": 55.1
     },
     {
       "page": "https://artificialjewellers.com/policies/shipping-policy",
@@ -68,9 +68,9 @@
     {
       "page": "https://artificialjewellers.com/products/emerald-pearl-grace-bangle-set",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 25
+      "position": 19
     },
     {
       "page": "https://artificialjewellers.com/products/emerelle-pearl-floral-bangles",
@@ -82,9 +82,9 @@
     {
       "page": "https://artificialjewellers.com/products/esmera-pendant-set",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 23,
       "ctr": 0,
-      "position": 51.1
+      "position": 50.7
     },
     {
       "page": "https://artificialjewellers.com/products/lumina-pendant-set",
@@ -96,16 +96,16 @@
     {
       "page": "https://artificialjewellers.com/products/motiya-pearl-bangle-set",
       "clicks": 0,
-      "impressions": 46,
+      "impressions": 53,
       "ctr": 0,
-      "position": 52.8
+      "position": 54.0
     },
     {
       "page": "https://artificialjewellers.com/products/pearl-radiance-bangle-pair",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 17,
       "ctr": 0,
-      "position": 60.2
+      "position": 61.6
     },
     {
       "page": "https://artificialjewellers.com/products/pearl-ruby-pink-gold-bangles-set",
@@ -116,6 +116,13 @@
     }
   ],
   "top_queries": [
+    {
+      "query": "aesthetic artificial jewellery",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 68.5
+    },
     {
       "query": "artificial bangles",
       "clicks": 0,
@@ -147,9 +154,9 @@
     {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 58.9
+      "position": 57.5
     },
     {
       "query": "artificial jewellery artificial jewellery",
@@ -175,9 +182,9 @@
     {
       "query": "artificial jewellery market",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 7,
       "ctr": 0,
-      "position": 72.4
+      "position": 70.1
     },
     {
       "query": "artificial jewellery near me",
@@ -248,22 +255,15 @@
       "impressions": 1,
       "ctr": 0,
       "position": 41
-    },
-    {
-      "query": "best artificial jewellery online",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 37
     }
   ],
   "countries": [
     {
       "country": "usa",
       "clicks": 1,
-      "impressions": 62,
-      "ctr": 1.61,
-      "position": 45.9
+      "impressions": 63,
+      "ctr": 1.59,
+      "position": 46.2
     },
     {
       "country": "are",
@@ -310,9 +310,9 @@
     {
       "country": "bra",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 38.1
+      "position": 35.4
     },
     {
       "country": "can",
@@ -331,9 +331,9 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 9,
       "ctr": 0,
-      "position": 62.4
+      "position": 62.9
     },
     {
       "country": "esp",
@@ -367,9 +367,9 @@
   "top_country": {
     "country": "usa",
     "clicks": 1,
-    "impressions": 62,
-    "ctr": 1.61,
-    "position": 45.9
+    "impressions": 63,
+    "ctr": 1.59,
+    "position": 46.2
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -378,17 +378,17 @@
       {
         "country": "ind",
         "clicks": 0,
-        "impressions": 148,
+        "impressions": 156,
         "ctr": 0,
-        "position": 42.1
+        "position": 42.6
       }
     ],
     "top_country": {
       "country": "usa",
       "clicks": 1,
-      "impressions": 62,
-      "ctr": 1.61,
-      "position": 45.9
+      "impressions": 63,
+      "ctr": 1.59,
+      "position": 46.2
     }
   },
   "content_plan": [],
