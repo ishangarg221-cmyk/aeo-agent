@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "28 Oct 2026, 09:54 UTC",
+  "generated": "29 Oct 2026, 10:16 UTC",
   "totals": {
     "clicks": 0,
-    "impressions": 407
+    "impressions": 425
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 0,
-      "impressions": 43,
+      "impressions": 41,
       "ctr": 0,
-      "position": 21.3
+      "position": 21.6
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
@@ -40,16 +40,16 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 137,
+      "impressions": 152,
       "ctr": 0,
-      "position": 53.0
+      "position": 52.7
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 11,
       "ctr": 0,
-      "position": 41.5
+      "position": 40.5
     },
     {
       "page": "https://artificialjewellers.com/home/",
@@ -126,9 +126,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 47.3
+      "position": 47.4
     },
     {
       "query": "artificial bangles for women",
@@ -154,16 +154,16 @@
     {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 19,
       "ctr": 0,
-      "position": 53.4
+      "position": 53.6
     },
     {
       "query": "artificial jewellery artificial jewellery",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 65.5
+      "position": 63.4
     },
     {
       "query": "artificial jewellery designs",
@@ -196,9 +196,9 @@
     {
       "query": "artificial jewellery online",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 64.8
+      "position": 65
     },
     {
       "query": "artificial jewellery online shopping",
@@ -268,9 +268,9 @@
     {
       "country": "arg",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 48
+      "position": 35
     },
     {
       "country": "aus",
@@ -289,9 +289,9 @@
     {
       "country": "bgd",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 41
+      "position": 47
     },
     {
       "country": "bih",
@@ -303,16 +303,16 @@
     {
       "country": "bra",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 21,
       "ctr": 0,
-      "position": 41.6
+      "position": 42.2
     },
     {
       "country": "can",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 47.6
+      "position": 44.4
     },
     {
       "country": "che",
@@ -378,9 +378,9 @@
       {
         "country": "ind",
         "clicks": 0,
-        "impressions": 152,
+        "impressions": 150,
         "ctr": 0,
-        "position": 42.6
+        "position": 43.3
       }
     ],
     "top_country": {
@@ -400,10 +400,12 @@
   },
   "index": {
     "requested": 2,
-    "inspected": 2,
-    "errors": 0,
-    "error_sample": null,
-    "error_samples": [],
+    "inspected": 1,
+    "errors": 1,
+    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "error_samples": [
+      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+    ],
     "buckets": {
       "indexed": [
         "https://artificialjewellers.com/collections/all"
@@ -415,13 +417,7 @@
       "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": [
-        {
-          "url": "https://artificialjewellers.com/",
-          "state": "Indexed, though blocked by robots.txt",
-          "advice": "Review manually: Indexed, though blocked by robots.txt"
-        }
-      ]
+      "review": []
     },
     "urls_found": 2
   }
