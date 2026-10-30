@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "29 Oct 2026, 10:16 UTC",
+  "generated": "30 Oct 2026, 10:18 UTC",
   "totals": {
     "clicks": 0,
-    "impressions": 425
+    "impressions": 408
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 0,
-      "impressions": 41,
+      "impressions": 39,
       "ctr": 0,
-      "position": 21.6
+      "position": 22.3
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
@@ -47,9 +47,9 @@
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 8,
       "ctr": 0,
-      "position": 40.5
+      "position": 38
     },
     {
       "page": "https://artificialjewellers.com/home/",
@@ -96,9 +96,9 @@
     {
       "page": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 7.8
+      "position": 7.7
     },
     {
       "page": "https://artificialjewellers.com/products/emerald-pearl-grace-bangle-set",
@@ -126,9 +126,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 4,
       "ctr": 0,
-      "position": 47.4
+      "position": 47.8
     },
     {
       "query": "artificial bangles for women",
@@ -280,13 +280,6 @@
       "position": 7.5
     },
     {
-      "country": "aut",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 8
-    },
-    {
       "country": "bgd",
       "clicks": 0,
       "impressions": 6,
@@ -362,6 +355,13 @@
       "impressions": 1,
       "ctr": 0,
       "position": 42
+    },
+    {
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 49.4
     }
   ],
   "top_country": {
@@ -378,9 +378,9 @@
       {
         "country": "ind",
         "clicks": 0,
-        "impressions": 150,
+        "impressions": 135,
         "ctr": 0,
-        "position": 43.3
+        "position": 42.5
       }
     ],
     "top_country": {
