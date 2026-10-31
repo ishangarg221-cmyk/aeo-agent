@@ -3,18 +3,18 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "30 Oct 2026, 10:18 UTC",
+  "generated": "31 Oct 2026, 09:51 UTC",
   "totals": {
     "clicks": 0,
-    "impressions": 408
+    "impressions": 425
   },
   "top_pages": [
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 0,
-      "impressions": 39,
+      "impressions": 41,
       "ctr": 0,
-      "position": 22.3
+      "position": 21.8
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
@@ -33,23 +33,23 @@
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9
+      "position": 7.7
     },
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 152,
+      "impressions": 164,
       "ctr": 0,
-      "position": 52.7
+      "position": 50.0
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0,
-      "position": 38
+      "position": 34.8
     },
     {
       "page": "https://artificialjewellers.com/home/",
@@ -89,9 +89,9 @@
     {
       "page": "https://artificialjewellers.com/products/aurelia-radiance-pendant-set",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 42
+      "position": 21.5
     },
     {
       "page": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
@@ -126,9 +126,9 @@
     {
       "query": "artificial bangles",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0,
-      "position": 47.8
+      "position": 48
     },
     {
       "query": "artificial bangles for women",
@@ -245,9 +245,9 @@
     {
       "query": "artificial jewelry",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 66.8
+      "position": 66.7
     },
     {
       "query": "artificial jewelry designs",
@@ -282,9 +282,9 @@
     {
       "country": "bgd",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 47
+      "position": 53.3
     },
     {
       "country": "bih",
@@ -345,9 +345,9 @@
     {
       "country": "esp",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 61
+      "position": 31
     },
     {
       "country": "fra",
@@ -359,9 +359,9 @@
     {
       "country": "gbr",
       "clicks": 0,
-      "impressions": 33,
+      "impressions": 34,
       "ctr": 0,
-      "position": 49.4
+      "position": 46.3
     }
   ],
   "top_country": {
@@ -380,7 +380,7 @@
         "clicks": 0,
         "impressions": 135,
         "ctr": 0,
-        "position": 42.5
+        "position": 42.9
       }
     ],
     "top_country": {
@@ -400,12 +400,10 @@
   },
   "index": {
     "requested": 2,
-    "inspected": 1,
-    "errors": 1,
-    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
-    "error_samples": [
-      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
-    ],
+    "inspected": 2,
+    "errors": 0,
+    "error_sample": null,
+    "error_samples": [],
     "buckets": {
       "indexed": [
         "https://artificialjewellers.com/collections/all"
@@ -417,7 +415,13 @@
       "robots": [],
       "remove": [],
       "ok-skip": [],
-      "review": []
+      "review": [
+        {
+          "url": "https://artificialjewellers.com/",
+          "state": "Indexed, though blocked by robots.txt",
+          "advice": "Review manually: Indexed, though blocked by robots.txt"
+        }
+      ]
     },
     "urls_found": 2
   }
