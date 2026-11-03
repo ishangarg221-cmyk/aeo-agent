@@ -3,10 +3,10 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "02 Nov 2026, 11:30 UTC",
+  "generated": "03 Nov 2026, 11:09 UTC",
   "totals": {
     "clicks": 1,
-    "impressions": 519
+    "impressions": 536
   },
   "top_pages": [
     {
@@ -19,9 +19,9 @@
     {
       "page": "https://artificialjewellers.com/",
       "clicks": 0,
-      "impressions": 44,
+      "impressions": 47,
       "ctr": 0,
-      "position": 23.0
+      "position": 22.2
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
@@ -47,9 +47,9 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 233,
+      "impressions": 236,
       "ctr": 0,
-      "position": 44.0
+      "position": 43.5
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
@@ -110,9 +110,9 @@
     {
       "page": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 7.5
+      "position": 6.8
     }
   ],
   "top_queries": [
@@ -122,6 +122,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 9
+    },
+    {
+      "query": "22k gold pearl bangles",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
     },
     {
       "query": "aesthetic artificial jewellery",
@@ -147,23 +154,23 @@
     {
       "query": "artificial jewellers",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 18.7
+      "position": 22
     },
     {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 19,
       "ctr": 0,
-      "position": 52.8
+      "position": 51.8
     },
     {
       "query": "artificial jewellery artificial jewellery",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 63
+      "position": 62.6
     },
     {
       "query": "artificial jewellery designs",
@@ -182,9 +189,9 @@
     {
       "query": "artificial jewellery market",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 14,
       "ctr": 0,
-      "position": 61.8
+      "position": 61.4
     },
     {
       "query": "artificial jewellery near me",
@@ -196,9 +203,9 @@
     {
       "query": "artificial jewellery online",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 6,
       "ctr": 0,
-      "position": 65
+      "position": 62.5
     },
     {
       "query": "artificial jewellery online shopping",
@@ -236,33 +243,26 @@
       "position": 15
     },
     {
+      "query": "artificial jewellery stores",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 60
+    },
+    {
       "query": "artificial jewellery with price",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 32
-    },
-    {
-      "query": "artificial jewelry",
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0,
-      "position": 73
-    },
-    {
-      "query": "artificial jewelry designs",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 75.5
     }
   ],
   "countries": [
     {
       "country": "pak",
       "clicks": 1,
-      "impressions": 46,
-      "ctr": 2.17,
+      "impressions": 45,
+      "ctr": 2.22,
       "position": 53.4
     },
     {
@@ -287,6 +287,13 @@
       "position": 7.5
     },
     {
+      "country": "aut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
       "country": "bgd",
       "clicks": 0,
       "impressions": 8,
@@ -303,16 +310,16 @@
     {
       "country": "bra",
       "clicks": 0,
-      "impressions": 26,
+      "impressions": 27,
       "ctr": 0,
-      "position": 44.7
+      "position": 45.6
     },
     {
       "country": "can",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
-      "position": 44.4
+      "position": 49.3
     },
     {
       "country": "che",
@@ -327,6 +334,13 @@
       "impressions": 1,
       "ctr": 0,
       "position": 39
+    },
+    {
+      "country": "chn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
     },
     {
       "country": "col",
@@ -345,30 +359,16 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 18,
       "ctr": 0,
-      "position": 54.1
-    },
-    {
-      "country": "esp",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 41.7
-    },
-    {
-      "country": "eth",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 6
+      "position": 54.7
     }
   ],
   "top_country": {
     "country": "pak",
     "clicks": 1,
-    "impressions": 46,
-    "ctr": 2.17,
+    "impressions": 45,
+    "ctr": 2.22,
     "position": 53.4
   },
   "opportunities": {
@@ -378,23 +378,23 @@
       {
         "country": "ind",
         "clicks": 0,
-        "impressions": 143,
+        "impressions": 153,
         "ctr": 0,
-        "position": 42.3
+        "position": 42.6
       },
       {
         "country": "usa",
         "clicks": 0,
-        "impressions": 101,
+        "impressions": 102,
         "ctr": 0,
-        "position": 35.2
+        "position": 34.2
       }
     ],
     "top_country": {
       "country": "pak",
       "clicks": 1,
-      "impressions": 46,
-      "ctr": 2.17,
+      "impressions": 45,
+      "ctr": 2.22,
       "position": 53.4
     }
   },
