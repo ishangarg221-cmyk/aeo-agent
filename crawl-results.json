@@ -3,7 +3,7 @@
   "domain": "artificialjewellers.com",
   "base": "https://artificialjewellers.com",
   "mode": "daily",
-  "generated": "09 Nov 2026, 11:55 UTC",
+  "generated": "10 Nov 2026, 11:28 UTC",
   "sitemap_total": 69,
   "audited": 2,
   "avg_score": 59,
@@ -54,30 +54,6 @@
   ],
   "pages": [
     {
-      "url": "https://artificialjewellers.com/",
-      "score": 61,
-      "grade": "C \u2014 visible but leaking citations",
-      "ranked_fixes": [
-        [
-          "HIGH",
-          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
-        ],
-        [
-          "HIGH",
-          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
-        ],
-        [
-          "HIGH",
-          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
-        ],
-        [
-          "HIGH",
-          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
-        ]
-      ],
-      "type": "home"
-    },
-    {
       "url": "https://artificialjewellers.com/collections/all",
       "score": 57,
       "grade": "C \u2014 visible but leaking citations",
@@ -104,6 +80,30 @@
         ]
       ],
       "type": "collection"
+    },
+    {
+      "url": "https://artificialjewellers.com/",
+      "score": 61,
+      "grade": "C \u2014 visible but leaking citations",
+      "ranked_fixes": [
+        [
+          "HIGH",
+          "Add missing high-value schema: Organization, Product, FAQPage, BreadcrumbList. FAQPage in particular feeds AI Overviews and Perplexity direct answers."
+        ],
+        [
+          "HIGH",
+          "Add question-style headings + a 40-60 word direct answer immediately under each. This 'answer block' pattern is the single most-cited structure in AEO research."
+        ],
+        [
+          "HIGH",
+          "Low text-to-code ratio \u2014 thin extractable content relative to markup. Increase substantive on-page copy."
+        ],
+        [
+          "HIGH",
+          "Add Organization schema with sameAs links to your social/marketplace profiles \u2014 this is how AI engines confirm you're a real, consistent entity."
+        ]
+      ],
+      "type": "home"
     }
   ]
 }
