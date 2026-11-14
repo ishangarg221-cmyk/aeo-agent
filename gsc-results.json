@@ -3,25 +3,25 @@
   "domain": "artificialjewellers.com",
   "property": "sc-domain:artificialjewellers.com",
   "mode": "api",
-  "generated": "03 Nov 2026, 11:09 UTC",
+  "generated": "14 Nov 2026, 10:49 UTC",
   "totals": {
-    "clicks": 1,
-    "impressions": 536
+    "clicks": 3,
+    "impressions": 597
   },
   "top_pages": [
+    {
+      "page": "https://artificialjewellers.com/",
+      "clicks": 2,
+      "impressions": 46,
+      "ctr": 4.35,
+      "position": 10.5
+    },
     {
       "page": "https://artificialjewellers.com/products/noor-mahal-pearl-heritage-bangle-set",
       "clicks": 1,
       "impressions": 2,
       "ctr": 50.0,
       "position": 6
-    },
-    {
-      "page": "https://artificialjewellers.com/",
-      "clicks": 0,
-      "impressions": 47,
-      "ctr": 0,
-      "position": 22.2
     },
     {
       "page": "https://artificialjewellers.com/blogs/notes-from-alankar/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
@@ -33,9 +33,9 @@
     {
       "page": "https://artificialjewellers.com/collections/all",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 7,
       "ctr": 0,
-      "position": 3
+      "position": 2.3
     },
     {
       "page": "https://artificialjewellers.com/collections/haath-phool",
@@ -47,23 +47,23 @@
     {
       "page": "https://artificialjewellers.com/collections/necklaces",
       "clicks": 0,
-      "impressions": 236,
+      "impressions": 252,
       "ctr": 0,
-      "position": 43.5
+      "position": 40.4
     },
     {
       "page": "https://artificialjewellers.com/collections/rings-bangles",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 17.8
+      "position": 13.2
     },
     {
       "page": "https://artificialjewellers.com/home/",
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 23,
       "ctr": 0,
-      "position": 45.4
+      "position": 41.8
     },
     {
       "page": "https://artificialjewellers.com/pages/craftsmanship",
@@ -96,9 +96,9 @@
     {
       "page": "https://artificialjewellers.com/products/aurelia-radiance-pendant-set",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 21.5
+      "position": 17.3
     },
     {
       "page": "https://artificialjewellers.com/products/aurra-leaf-pendant-set",
@@ -110,9 +110,9 @@
     {
       "page": "https://artificialjewellers.com/products/celestia-bloom-pendant-set",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 3,
       "ctr": 0,
-      "position": 6.8
+      "position": 6
     }
   ],
   "top_queries": [
@@ -126,9 +126,9 @@
     {
       "query": "22k gold pearl bangles",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 63
+      "position": 54
     },
     {
       "query": "aesthetic artificial jewellery",
@@ -161,16 +161,23 @@
     {
       "query": "artificial jewellery",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 17,
       "ctr": 0,
-      "position": 51.8
+      "position": 44.4
     },
     {
       "query": "artificial jewellery artificial jewellery",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 62.6
+      "position": 58.1
+    },
+    {
+      "query": "artificial jewellery brands in usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 60.5
     },
     {
       "query": "artificial jewellery designs",
@@ -180,32 +187,18 @@
       "position": 63
     },
     {
-      "query": "artificial jewellery for kids",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 73
-    },
-    {
       "query": "artificial jewellery market",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 19,
       "ctr": 0,
-      "position": 61.4
-    },
-    {
-      "query": "artificial jewellery near me",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 12
+      "position": 61.9
     },
     {
       "query": "artificial jewellery online",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 62.5
+      "position": 61.5
     },
     {
       "query": "artificial jewellery online shopping",
@@ -217,7 +210,7 @@
     {
       "query": "artificial jewellery online shopping uae",
       "clicks": 0,
-      "impressions": 43,
+      "impressions": 42,
       "ctr": 0,
       "position": 35.1
     },
@@ -229,18 +222,11 @@
       "position": 66
     },
     {
-      "query": "artificial jewellery shop indore",
+      "query": "artificial jewellery shopping app",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 16
-    },
-    {
-      "query": "artificial jewellery shop near me",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 15
+      "position": 82
     },
     {
       "query": "artificial jewellery stores",
@@ -250,41 +236,55 @@
       "position": 60
     },
     {
-      "query": "artificial jewellery with price",
+      "query": "artificial jewelry",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 66.1
+    },
+    {
+      "query": "artificial mens jewellery",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 32
+      "position": 63
+    },
+    {
+      "query": "artificial necklace",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 45.7
     }
   ],
   "countries": [
     {
+      "country": "ind",
+      "clicks": 2,
+      "impressions": 170,
+      "ctr": 1.18,
+      "position": 42.4
+    },
+    {
       "country": "pak",
       "clicks": 1,
-      "impressions": 45,
-      "ctr": 2.22,
-      "position": 53.4
+      "impressions": 44,
+      "ctr": 2.27,
+      "position": 55.4
     },
     {
       "country": "are",
       "clicks": 0,
-      "impressions": 45,
+      "impressions": 46,
       "ctr": 0,
-      "position": 35.5
+      "position": 35.7
     },
     {
       "country": "arg",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0,
-      "position": 35
-    },
-    {
-      "country": "aus",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 7.5
+      "position": 30.7
     },
     {
       "country": "aut",
@@ -298,28 +298,28 @@
       "clicks": 0,
       "impressions": 8,
       "ctr": 0,
-      "position": 52.8
-    },
-    {
-      "country": "bih",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 80
+      "position": 49.5
     },
     {
       "country": "bra",
       "clicks": 0,
-      "impressions": 27,
+      "impressions": 35,
       "ctr": 0,
-      "position": 45.6
+      "position": 41.5
+    },
+    {
+      "country": "btn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
     },
     {
       "country": "can",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 49.3
+      "position": 48.4
     },
     {
       "country": "che",
@@ -345,9 +345,9 @@
     {
       "country": "col",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 34.4
+      "position": 36
     },
     {
       "country": "cze",
@@ -359,17 +359,17 @@
     {
       "country": "deu",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 23,
       "ctr": 0,
-      "position": 54.7
+      "position": 55.8
     }
   ],
   "top_country": {
-    "country": "pak",
-    "clicks": 1,
-    "impressions": 45,
-    "ctr": 2.22,
-    "position": 53.4
+    "country": "ind",
+    "clicks": 2,
+    "impressions": 170,
+    "ctr": 1.18,
+    "position": 42.4
   },
   "opportunities": {
     "low_ctr_pages": [],
@@ -377,25 +377,25 @@
     "country_gaps": [
       {
         "country": "ind",
-        "clicks": 0,
-        "impressions": 153,
-        "ctr": 0,
-        "position": 42.6
+        "clicks": 2,
+        "impressions": 170,
+        "ctr": 1.18,
+        "position": 42.4
       },
       {
         "country": "usa",
         "clicks": 0,
-        "impressions": 102,
+        "impressions": 107,
         "ctr": 0,
-        "position": 34.2
+        "position": 32.4
       }
     ],
     "top_country": {
-      "country": "pak",
-      "clicks": 1,
-      "impressions": 45,
-      "ctr": 2.22,
-      "position": 53.4
+      "country": "ind",
+      "clicks": 2,
+      "impressions": 170,
+      "ctr": 1.18,
+      "position": 42.4
     }
   },
   "content_plan": [],
@@ -406,26 +406,100 @@
     "recommendation": "1 sitemap(s) have errors \u2014 open Search Console \u2192 Sitemaps, fix, then resubmit."
   },
   "index": {
-    "requested": 2,
-    "inspected": 1,
-    "errors": 1,
-    "error_sample": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)",
+    "requested": 69,
+    "inspected": 18,
+    "errors": 51,
+    "error_sample": "[SSL] record layer failure (_ssl.c:2581)",
     "error_samples": [
-      "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2580)"
+      "[SSL] record layer failure (_ssl.c:2581)",
+      "[SSL] record layer failure (_ssl.c:2581)",
+      "[SSL] record layer failure (_ssl.c:2581)"
     ],
     "buckets": {
       "indexed": [
-        "https://artificialjewellers.com/collections/all"
+        "https://artificialjewellers.com/products/aurelia-feather-pendant-set",
+        "https://artificialjewellers.com/products/aurra-leaf-pendant-set",
+        "https://artificialjewellers.com/products/saphira-necklace-set",
+        "https://artificialjewellers.com/products/emerelle-pearl-floral-bangles",
+        "https://artificialjewellers.com/products/celestia-bloom-pendant-set"
       ],
-      "fix": [],
+      "fix": [
+        {
+          "url": "https://artificialjewellers.com/pages/shipping-policy",
+          "state": "Crawled - currently not indexed",
+          "advice": "Thin/low-value in Google's eyes. Beef up unique content + add internal links, then Request Indexing."
+        }
+      ],
       "junk-not-indexed": [],
       "canonical": [],
       "noindex": [],
-      "robots": [],
+      "robots": [
+        {
+          "url": "https://artificialjewellers.com/pages/contact",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/pages/faqs",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/pages/track-order",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/pages/affiliates",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/collections/bracelets-sets",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/collections/rings-bangles-1",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/collections/pendants",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/collections/polki",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/collections/temple-sets",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/blogs/notes-from-myna/why-your-jewellery-tarnishes-and-exactly-how-to-stop-it",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        },
+        {
+          "url": "https://artificialjewellers.com/blogs/notes-from-myna/the-complete-bridal-jewellery-guide-for-every-ceremony",
+          "state": "Blocked by robots.txt",
+          "advice": "Blocked in robots.txt. Unblock if valuable."
+        }
+      ],
       "remove": [],
       "ok-skip": [],
-      "review": []
+      "review": [
+        {
+          "url": "https://artificialjewellers.com/blogs/notes-from-myna",
+          "state": "URL is unknown to Google",
+          "advice": "Review manually: URL is unknown to Google"
+        }
+      ]
     },
-    "urls_found": 2
+    "urls_found": 69
   }
 }
